@@ -1,0 +1,79 @@
+================================================================================
+EMBEDDING MODEL COMPARISON REPORT
+================================================================================
+
+MiniLM Model: all-MiniLM-L6-v2
+BioBERT Model: dmis-lab/biobert-base-cased-v1.1
+
+================================================================================
+
+
+LUNG CANCER
+--------------------------------------------------------------------------------
+
+  Patient Case 1:
+    MiniLM - Avg Score: 0.6561, Top Score: 0.6688
+    BioBERT - Avg Score: 0.9305, Top Score: 0.9359
+    Difference: +0.2744 (avg), +0.2670 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: A Study to Describe the Diagnostic and Therapeutic Path of Patients with NSCLC in Early Stage and Lo
+    BioBERT Top Trial: COr Loco-regional Advanced Lung Cancer Treated With Chemo-radiotherapy (COLA)
+
+  Patient Case 2:
+    MiniLM - Avg Score: 0.5977, Top Score: 0.6560
+    BioBERT - Avg Score: 0.9306, Top Score: 0.9332
+    Difference: +0.3329 (avg), +0.2772 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: Neoadjuvant Befotertinib Combined Bevacizumab or Platinum-based Double Chemotherapy for Resectable L
+    BioBERT Top Trial: Evaluation of Prognostic Factors: From Breast Cancer to Bone Metastases
+
+GLIOBLASTOMA
+--------------------------------------------------------------------------------
+
+  Patient Case 1:
+    MiniLM - Avg Score: 0.6990, Top Score: 0.7310
+    BioBERT - Avg Score: 0.9423, Top Score: 0.9461
+    Difference: +0.2433 (avg), +0.2150 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: Hypofractionated Stereotactic Radiotherapy in Recurrent Glioblastoma Multiforme
+    BioBERT Top Trial: Glutamate Excitotoxicity and Its Role in Glioblastoma Biology
+
+  Patient Case 2:
+    MiniLM - Avg Score: 0.7082, Top Score: 0.7139
+    BioBERT - Avg Score: 0.9485, Top Score: 0.9516
+    Difference: +0.2404 (avg), +0.2377 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: Evaluation of Maximum Tolerated Dose, Safety and Efficiency of MSC11FCD Therapy to Recurrent Gliobla
+    BioBERT Top Trial: Glioblastoma Response Prediction to Apatinib
+
+TYPE 2 DIABETES
+--------------------------------------------------------------------------------
+
+  Patient Case 1:
+    MiniLM - Avg Score: 0.6957, Top Score: 0.7422
+    BioBERT - Avg Score: 0.9442, Top Score: 0.9458
+    Difference: +0.2485 (avg), +0.2036 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: Mechanisms of Fatigability With Diabetes
+    BioBERT Top Trial: The eHealth Diabetes Remission Trial
+
+  Patient Case 2:
+    MiniLM - Avg Score: 0.6576, Top Score: 0.7066
+    BioBERT - Avg Score: 0.9425, Top Score: 0.9437
+    Difference: +0.2850 (avg), +0.2371 (top)
+    ✓ BioBERT performs better
+    MiniLM Top Trial: Effect of Treatment With Metformin in Type 2 Diabetes Patients on Alternative Genes Splicing
+    BioBERT Top Trial: Sleeve Gastrectomy and Roux-en-Y Gastric Bypass in the Treatment of Type 2 Diabetes Mellitus.
+
+================================================================================
+OVERALL SUMMARY
+================================================================================
+
+Average Match Score Across All Cases:
+  MiniLM:  0.6690
+  BioBERT: 0.9398
+  Difference: +0.2708
+
+✓ RECOMMENDATION: Use BioBERT (better average match scores)
+
+================================================================================

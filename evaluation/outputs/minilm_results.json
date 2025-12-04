@@ -1,0 +1,126 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "model_display_name": "MiniLM",
+  "conditions": {
+    "lung_cancer": {
+      "cases": [
+        {
+          "patient_id": "lung_cancer_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.6560649156570435,
+          "top_score": 0.6688245534896851,
+          "top_trial": {
+            "nct_id": "NCT06467383",
+            "title": "A Study to Describe the Diagnostic and Therapeutic Path of Patients with NSCLC in Early Stage and Lo",
+            "score": 0.6688245534896851
+          },
+          "all_scores": [
+            0.6688245534896851,
+            0.6634841561317444,
+            0.6532501578330994,
+            0.6475837826728821,
+            0.6471819281578064
+          ]
+        },
+        {
+          "patient_id": "lung_cancer_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.597659420967102,
+          "top_score": 0.655991792678833,
+          "top_trial": {
+            "nct_id": "NCT06755684",
+            "title": "Neoadjuvant Befotertinib Combined Bevacizumab or Platinum-based Double Chemotherapy for Resectable L",
+            "score": 0.655991792678833
+          },
+          "all_scores": [
+            0.655991792678833,
+            0.605059027671814,
+            0.5815642476081848,
+            0.5731814503669739,
+            0.5725005865097046
+          ]
+        }
+      ]
+    },
+    "glioblastoma": {
+      "cases": [
+        {
+          "patient_id": "glioblastoma_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.6990131258964538,
+          "top_score": 0.7310476303100586,
+          "top_trial": {
+            "nct_id": "NCT01464177",
+            "title": "Hypofractionated Stereotactic Radiotherapy in Recurrent Glioblastoma Multiforme",
+            "score": 0.7310476303100586
+          },
+          "all_scores": [
+            0.7310476303100586,
+            0.7027104496955872,
+            0.6949286460876465,
+            0.6835547685623169,
+            0.6828241348266602
+          ]
+        },
+        {
+          "patient_id": "glioblastoma_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.7081731200218201,
+          "top_score": 0.7138540148735046,
+          "top_trial": {
+            "nct_id": "NCT04657315",
+            "title": "Evaluation of Maximum Tolerated Dose, Safety and Efficiency of MSC11FCD Therapy to Recurrent Gliobla",
+            "score": 0.7138540148735046
+          },
+          "all_scores": [
+            0.7138540148735046,
+            0.7131338715553284,
+            0.7130303978919983,
+            0.7028768062591553,
+            0.6979705095291138
+          ]
+        }
+      ]
+    },
+    "type_2_diabetes": {
+      "cases": [
+        {
+          "patient_id": "type_2_diabetes_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.6957163691520691,
+          "top_score": 0.7421959638595581,
+          "top_trial": {
+            "nct_id": "NCT04442451",
+            "title": "Mechanisms of Fatigability With Diabetes",
+            "score": 0.7421959638595581
+          },
+          "all_scores": [
+            0.7421959638595581,
+            0.6956413388252258,
+            0.689196765422821,
+            0.6796347498893738,
+            0.6719130277633667
+          ]
+        },
+        {
+          "patient_id": "type_2_diabetes_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.6575767874717713,
+          "top_score": 0.7065868973731995,
+          "top_trial": {
+            "nct_id": "NCT01349387",
+            "title": "Effect of Treatment With Metformin in Type 2 Diabetes Patients on Alternative Genes Splicing",
+            "score": 0.7065868973731995
+          },
+          "all_scores": [
+            0.7065868973731995,
+            0.6703470349311829,
+            0.6621902585029602,
+            0.6274144649505615,
+            0.6213452816009521
+          ]
+        }
+      ]
+    }
+  }
+}

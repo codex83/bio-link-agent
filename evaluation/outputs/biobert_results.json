@@ -1,0 +1,126 @@
+{
+  "model_name": "dmis-lab/biobert-base-cased-v1.1",
+  "model_display_name": "BioBERT",
+  "conditions": {
+    "lung_cancer": {
+      "cases": [
+        {
+          "patient_id": "lung_cancer_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.9305113792419434,
+          "top_score": 0.9358579516410828,
+          "top_trial": {
+            "nct_id": "NCT05258448",
+            "title": "COr Loco-regional Advanced Lung Cancer Treated With Chemo-radiotherapy (COLA)",
+            "score": 0.9358579516410828
+          },
+          "all_scores": [
+            0.9358579516410828,
+            0.9307314157485962,
+            0.9305688142776489,
+            0.9288608431816101,
+            0.9265378713607788
+          ]
+        },
+        {
+          "patient_id": "lung_cancer_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.9305506825447083,
+          "top_score": 0.9332292675971985,
+          "top_trial": {
+            "nct_id": "NCT04167605",
+            "title": "Evaluation of Prognostic Factors: From Breast Cancer to Bone Metastases",
+            "score": 0.9332292675971985
+          },
+          "all_scores": [
+            0.9332292675971985,
+            0.9309902787208557,
+            0.9308214783668518,
+            0.9290897250175476,
+            0.9286226630210876
+          ]
+        }
+      ]
+    },
+    "glioblastoma": {
+      "cases": [
+        {
+          "patient_id": "glioblastoma_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.9423141598701477,
+          "top_score": 0.9460945725440979,
+          "top_trial": {
+            "nct_id": "NCT05775458",
+            "title": "Glutamate Excitotoxicity and Its Role in Glioblastoma Biology",
+            "score": 0.9460945725440979
+          },
+          "all_scores": [
+            0.9460945725440979,
+            0.941823422908783,
+            0.9416595697402954,
+            0.9409972429275513,
+            0.940995991230011
+          ]
+        },
+        {
+          "patient_id": "glioblastoma_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.9485388994216919,
+          "top_score": 0.9515774846076965,
+          "top_trial": {
+            "nct_id": "NCT04814329",
+            "title": "Glioblastoma Response Prediction to Apatinib",
+            "score": 0.9515774846076965
+          },
+          "all_scores": [
+            0.9515774846076965,
+            0.9486464262008667,
+            0.94786137342453,
+            0.9477941393852234,
+            0.9468150734901428
+          ]
+        }
+      ]
+    },
+    "type_2_diabetes": {
+      "cases": [
+        {
+          "patient_id": "type_2_diabetes_patient_1",
+          "num_matches": 5,
+          "avg_score": 0.9442474961280822,
+          "top_score": 0.9458298087120056,
+          "top_trial": {
+            "nct_id": "NCT05491005",
+            "title": "The eHealth Diabetes Remission Trial",
+            "score": 0.9458298087120056
+          },
+          "all_scores": [
+            0.9458298087120056,
+            0.9455139636993408,
+            0.9434641599655151,
+            0.9433450102806091,
+            0.9430845379829407
+          ]
+        },
+        {
+          "patient_id": "type_2_diabetes_patient_2",
+          "num_matches": 5,
+          "avg_score": 0.9425443291664124,
+          "top_score": 0.9436851143836975,
+          "top_trial": {
+            "nct_id": "NCT01984762",
+            "title": "Sleeve Gastrectomy and Roux-en-Y Gastric Bypass in the Treatment of Type 2 Diabetes Mellitus.",
+            "score": 0.9436851143836975
+          },
+          "all_scores": [
+            0.9436851143836975,
+            0.9434198141098022,
+            0.9431363344192505,
+            0.9427111148834229,
+            0.9397692680358887
+          ]
+        }
+      ]
+    }
+  }
+}
