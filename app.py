@@ -555,7 +555,7 @@ elif page == "📈 About":
     """)
     
     st.markdown("---")
-    st.markdown("**Built for**: University of Chicago, Next Generation NLP Course")
+    st.markdown("**Version**: 1.0")
     st.markdown("**Date**: December 2025")
 
 # Run the app

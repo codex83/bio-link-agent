@@ -377,7 +377,6 @@ If you use this work, please cite:
 
 ```
 Bio-Link Agent: Unified Clinical Research & Precision Trial Matching
-University of Chicago, Next Generation NLP Course
 2025
 ```
 
@@ -385,7 +384,7 @@ University of Chicago, Next Generation NLP Course
 
 ## License
 
-This project is for educational purposes as part of a university course.
+This project is open source and available for research and educational purposes.
 
 ---
 
