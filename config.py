@@ -10,7 +10,7 @@ OLLAMA_HOST = "http://localhost:11434"
 OLLAMA_TEMPERATURE = 0.1  # Lower = more deterministic
 
 # Embedding Configuration
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # Options: "all-MiniLM-L6-v2", "dmis-lab/biobert-base-cased-v1.1"
+EMBEDDING_MODEL = "dmis-lab/biobert-base-cased-v1.1"  # Options: "all-MiniLM-L6-v2", "dmis-lab/biobert-base-cased-v1.1"
 
 # Data Directories
 DATA_DIR = "./data"

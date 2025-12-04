@@ -13,10 +13,13 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from typing import Dict, List, Optional
+
+from loguru import logger
+
+import config
 from mcp_servers.clinicaltrials_server import ClinicalTrialsServer
 from utils.embeddings import EmbeddingManager, OntologyChecker
-from typing import Dict, List, Optional
-from loguru import logger
 
 
 class SemanticMatcher:
@@ -26,7 +29,7 @@ class SemanticMatcher:
     
     def __init__(
         self,
-        embedding_model: str = "all-MiniLM-L6-v2",
+        embedding_model: str = config.EMBEDDING_MODEL,
         data_dir: str = "./data/indexed_trials"
     ):
         """

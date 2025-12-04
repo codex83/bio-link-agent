@@ -211,6 +211,7 @@ agent.visualize_graph("output.png")
 ```python
 from agents.semantic_matcher import SemanticMatcher
 
+# Uses EMBEDDING_MODEL from config.py (can be switched to a biomedical model like BioBERT)
 matcher = SemanticMatcher()
 
 # Index trials (one-time setup)

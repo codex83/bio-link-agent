@@ -18,11 +18,13 @@ from pathlib import Path
 # Add parent directory to path to import from project root
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from loguru import logger
+from tqdm import tqdm
+
+import config
 from mcp_servers.pubmed_server import PubMedServer
 from mcp_servers.clinicaltrials_server import ClinicalTrialsServer
 from utils.embeddings import EmbeddingManager
-from loguru import logger
-from tqdm import tqdm
 
 
 # Configuration (DOUBLED data size for better coverage)
@@ -194,10 +196,13 @@ def main(auto_run: bool = False):
     # Setup
     setup_directories()
     
-    # Initialize servers
+    # Initialize servers and embedding manager
     pubmed = PubMedServer()
     clinicaltrials = ClinicalTrialsServer()
-    embeddings = EmbeddingManager()
+    embeddings = EmbeddingManager(
+        model_name=config.EMBEDDING_MODEL,
+        persist_directory=config.VECTOR_STORE_DIR,
+    )
     
     all_data = {}
     

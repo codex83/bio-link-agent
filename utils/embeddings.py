@@ -13,7 +13,7 @@ import os
 import torch
 
 
-def get_best_device() -> str:
+def get_best_device(model_name: str) -> str:
     """
     Detect the best available device for PyTorch embeddings.
     
@@ -21,17 +21,26 @@ def get_best_device() -> str:
     than GPU due to data transfer overhead. GPU is only beneficial for
     very large models or batch sizes > 1000.
     """
-    # CPU is faster for small embedding models (tested: CPU 0.2s vs MPS 3.6s)
-    # GPU overhead isn't worth it for 22M parameter models
-    logger.info("Using CPU for embeddings (optimal for small models)")
-    return "cpu"
+    name_lower = (model_name or "").lower()
     
-    # Uncomment below to force GPU (only useful for very large batches)
-    # if torch.backends.mps.is_available():
-    #     return "mps"
-    # elif torch.cuda.is_available():
-    #     return "cuda"
-    # return "cpu"
+    # Heuristic:
+    # - For small general-purpose models (like all-MiniLM-L6-v2), CPU is faster
+    #   on Mac M-series due to low overhead.
+    # - For larger biomedical models (BioBERT / PubMedBERT), GPU/MPS can help.
+    if "miniLM".lower() in name_lower or "all-minilm-l6-v2" in name_lower:
+        logger.info("Using CPU for embeddings (small MiniLM model)")
+        return "cpu"
+    
+    # Prefer Apple MPS if available (Mac GPU), otherwise CUDA, else CPU
+    if torch.backends.mps.is_available():
+        logger.info("Using MPS device for embeddings (Apple GPU detected)")
+        return "mps"
+    if torch.cuda.is_available():
+        logger.info("Using CUDA device for embeddings (NVIDIA GPU detected)")
+        return "cuda"
+    
+    logger.info("GPU not available, falling back to CPU for embeddings")
+    return "cpu"
 
 
 class EmbeddingManager:
@@ -55,7 +64,7 @@ class EmbeddingManager:
         self.persist_directory = persist_directory
         
         # Auto-detect best device if not specified
-        self.device = device or get_best_device()
+        self.device = device or get_best_device(model_name)
         
         # Initialize sentence transformer with GPU support
         logger.info(f"Loading embedding model: {model_name} on device: {self.device}")
