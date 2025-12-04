@@ -1,0 +1,2450 @@
+[
+  {
+    "pmid": "38876751",
+    "title": "Glioblastoma and brain connectivity: the need for a paradigm shift.",
+    "year": "2024",
+    "abstract": "Despite substantial advances in cancer treatment, for patients with glioblastoma prognosis remains bleak. The emerging field of cancer neuroscience reveals intricate functional interplays between glioblastoma and the cellular architecture of the brain, encompassing neurons, glia, and vessels. New findings underscore the role of structural and functional connections within hierarchical networks, known as the connectome. These connections contribute to the location, spread, and recurrence of a glioblastoma, and a patient's overall survival, revealing a complex interplay between the tumour and the CNS. This mounting evidence prompts a paradigm shift, challenging the perception of glioblastomas as mere foreign bodies within the brain. Instead, these tumours are intricately woven into the structural and functional fabric of the brain. This radical change in thinking holds profound implications for the understanding and treatment of glioblastomas, which could unveil new prognostic factors and surgical strategies and optimise radiotherapy. Additionally, a connectivity approach suggests that non-invasive brain stimulation could disrupt pathological neuron-glioma interactions within specific networks.",
+    "entities": {
+      "drugs": [
+        "radiotherapy"
+      ],
+      "targets": [],
+      "pathways": [
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "radiotherapy",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "23209033",
+    "title": "The definition of primary and secondary glioblastoma.",
+    "year": "2013",
+    "abstract": "Glioblastoma is the most frequent and malignant brain tumor. The vast majority of glioblastomas (~90%) develop rapidly de novo in elderly patients, without clinical or histologic evidence of a less malignant precursor lesion (primary glioblastomas). Secondary glioblastomas progress from low-grade diffuse astrocytoma or anaplastic astrocytoma. They manifest in younger patients, have a lesser degree of necrosis, are preferentially located in the frontal lobe, and carry a significantly better prognosis. Histologically, primary and secondary glioblastomas are largely indistinguishable, but they differ in their genetic and epigenetic profiles. Decisive genetic signposts of secondary glioblastoma are IDH1 mutations, which are absent in primary glioblastomas and which are associated with a hypermethylation phenotype. IDH1 mutations are the earliest detectable genetic alteration in precursor low-grade diffuse astrocytomas and in oligodendrogliomas, indicating that these tumors are derived from neural precursor cells that differ from those of primary glioblastomas. In this review, we summarize epidemiologic, clinical, histopathologic, genetic, and expression features of primary and secondary glioblastomas and the biologic consequences of IDH1 mutations. We conclude that this genetic alteration is a definitive diagnostic molecular marker of secondary glioblastomas and more reliable and objective than clinical criteria. Despite a similar histologic appearance, primary and secondary glioblastomas are distinct tumor entities that originate from different precursor cells and may require different therapeutic approaches.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "IDH1",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "IDH1",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "33223018",
+    "title": "Perioperative Management of Patients with Glioblastoma.",
+    "year": "2021",
+    "abstract": "The clinical presentation of glioblastomas is varied, and definitive diagnosis requires pathologic examination and study of the tissue. Management of glioblastomas includes surgery and adjuvant chemotherapy and radiotherapy, with surgery playing an important role in the prognosis of these patients. Awake craniotomy plays a crucial role in tumors in or adjacent to eloquent areas, allowing surgeons to maximize resection, while minimizing iatrogenic deficits. However, the prognosis remains dismal. This article presents the perioperative management of patients with glioblastoma including tools and surgical adjuncts to maximize extent of resection and minimize poor outcomes.",
+    "entities": {
+      "drugs": [
+        "chemotherapy",
+        "radiotherapy"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "radiotherapy",
+        "relation": "targets",
+        "target": "glioblastomas"
+      }
+    ]
+  },
+  {
+    "pmid": "25363008",
+    "title": "Optimizing glioblastoma resection: intraoperative mapping and beyond.",
+    "year": "2014",
+    "abstract": "The management of glioblastomas starts with surgical resection if possible, along with subsequent chemotherapy and radiation therapy. Several retrospective studies have suggested that extent of resection plays a role in the prognosis of glioblastoma patients. The importance of extent of resection must be balanced with preserving patient's functional status for tumors in eloquent areas. Here we review the preoperative imaging modalities such as functional MRI and magnetoencephalography (MEG), and the intraoperative techniques such as motor and language mapping, intraoperative MRI, and intraoperative techniques such as 5-aminolevulinic acid administration, that allow maximal safe operative resection of glioblastomas.",
+    "entities": {
+      "drugs": [
+        "5-aminolevulinic acid"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression"
+      ]
+    },
+    "relationships": []
+  },
+  {
+    "pmid": "27041580",
+    "title": "A comprehensive profile of recurrent glioblastoma.",
+    "year": "2016",
+    "abstract": "In spite of relentless efforts to devise new treatment strategies, primary glioblastomas invariably recur as aggressive, therapy-resistant relapses and patients rapidly succumb to these tumors. Many therapeutic agents are first tested in clinical trials involving recurrent glioblastomas. Remarkably, however, fundamental knowledge on the biology of recurrent glioblastoma is just slowly emerging. Here, we review current knowledge on recurrent glioblastoma and ask whether and how therapies change intra-tumor heterogeneity, molecular traits and growth pattern of glioblastoma, and to which extent this information can be exploited for therapeutic decision-making. We conclude that the ability to characterize and predict therapy-induced changes in recurrent glioblastoma will determine, whether, one day, glioblastoma can be contained in a state of chronic disease.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "therapies",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "therapies",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "therapies",
+        "relation": "associated_with",
+        "target": "adverse effects"
+      }
+    ]
+  },
+  {
+    "pmid": "26146042",
+    "title": "Glioblastoma metastases: a literature review and a description of six clinical observations.",
+    "year": "2015",
+    "abstract": "INTRODUCTION: since the 1990s, the literature has described cases of glioblastoma metastases with the development of foci located at a distance from the primary tumor. However, the pathogenesis of this process remains unclear until the end. This focus is believed to result, on the one hand, from tumor metastasis from the primary site and, on the other hand, from multifocal growth. This article presents a literature review and a description of clinical observations of patients with glioblastoma metastases.\nMATERIAL AND METHODS: The study included 6 patients (1 female and 5 males) with brain glioblastomas who received treatment at the Burdenko Neurosurgical Institute (5 patients) and the Department of Neurosurgery of the Research Center of Neurology (1 patient) in the period from 2010 to 2014. Neurophysiological control was used if the tumor was localized near the eloquent cortical areas and pathways; 4 of 6 patients were operated on using the methods of intraoperative fluorescence diagnosis (5-ALA agent--Alasens).\nRESULTS: Four patients had metastases within one hemisphere, two had metastases in the contralateral hemisphere in the period of 5 to 18 months after the first operation. The primary tumor site was located near the ventricular system in two patients. In one patient, the lateral ventricle was opened during the first operation. In another patient, the prepontine cistern was opened during the first operation. In two patients, the primary tumor site was located at a distance from the lateral ventricles, however, the tumor was located near them during recurrence. Based on metabolic navigation, fluorescence of the tumor was observed in the four patients during both the first and repeated operations.\nCONCLUSIONS: The close relationship between primary glioblastomas and metastases and the cerebrospinal fluid circulation pathways may confirm the fact of dissemination of tumor cells with cerebrospinal fluid flow. In our opinion, there should be an increased suspicion of the possibility for metastases of glioblastomas that are closely associated with the cerebrospinal fluid circulation pathways. Metabolic navigation with 5-ALA is effective both during primary surgery in patients with glioblastomas and during resection of glioblastoma metastases.",
+    "entities": {
+      "drugs": [
+        "5-ALA",
+        "Alasens"
+      ],
+      "targets": [],
+      "pathways": [
+        "cerebrospinal fluid circulation pathways",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "5-ALA",
+        "relation": "targets",
+        "target": "tumor"
+      },
+      {
+        "source": "Alasens",
+        "relation": "targets",
+        "target": "tumor"
+      },
+      {
+        "source": "cerebrospinal fluid circulation pathways",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "cerebrospinal fluid circulation pathways",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "35659255",
+    "title": "Glioblastoma microenvironment contains multiple hormonal and non-hormonal growth-stimulating factors.",
+    "year": "2022",
+    "abstract": "BACKGROUND: The growth of malignant tumors is influenced by their microenvironment. Glioblastoma, an aggressive primary brain tumor, may have cysts containing fluid that represents the tumor microenvironment. The aim of this study was to investigate whether the cyst fluid of cystic glioblastomas contains growth-stimulating factors. Identification of such growth factors may pave the way for the development of targeted anti-glioblastoma therapies.\nMETHODS: We performed hormone analysis of cyst fluid from 25 cystic glioblastomas and proteomics analysis of cyst fluid from another 12 cystic glioblastomas.\nRESULTS: Glioblastoma cyst fluid contained hormones within wide concentration ranges: Insulin-like growth factor 1 (0-13.7\u00a0nmol/L), insulin (1.4-133\u00a0pmol/L), erythropoietin (4.7-402\u00a0IU/L), growth hormone (0-0.93\u00a0\u00b5g/L), testosterone (0.2-10.1\u00a0nmol/L), estradiol (0-1.0\u00a0nmol/L), triiodothyronine (1.0-11.5). Tumor volume correlated with cyst fluid concentrations of growth hormone and testosterone. Survival correlated inversely with cyst fluid concentration of erythropoietin. Several hormones were present at concentrations that have been shown to stimulate glioblastoma growth in vitro. Concentrations of erythropoietin and estradiol (in men)\u00a0were higher in cyst fluid than in serum, suggesting formation by tumor or brain tissue. Quantitatively, glioblastoma cyst fluid was dominated by serum proteins, illustrating blood-brain barrier leakage.\u00a0Proteomics identified several proteins that stimulate tumor cell proliferation and invasiveness, others that inhibit apoptosis or mediate adaption to hypoxia and some that induce neovascularization or blood-brain barrier leakage.\nCONCLUSION: The microenvironment of glioblastomas is rich in growth-stimulating factors that may originate from the circulation, the tumor, or the brain. The wide variation in cyst fluid hormone concentrations may differentially influence tumor growth.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [
+        "neovascularization",
+        "apoptosis"
+      ],
+      "outcomes": [
+        "tumor growth"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "neovascularization",
+        "relation": "targets",
+        "target": "tumor growth"
+      },
+      {
+        "source": "apoptosis",
+        "relation": "targets",
+        "target": "tumor growth"
+      }
+    ]
+  },
+  {
+    "pmid": "23299302",
+    "title": "Glioblastoma of the cerebellum in children: report of five cases and review of the literature.",
+    "year": "2013",
+    "abstract": "PURPOSE: Cerebellar glioblastomas in children are rare. As a result, an optimal treatment strategy has not yet been identified. A review of the characteristics of the disease as well as the effectiveness of various therapeutic modalities would help in optimizing the treatment paradigm.\nMETHODS: We performed a detailed clinical, radiographic, and pathologic retrospective review of five patients (three boys and two girls, average age at presentation 7.2\u00a0years (range, 3-14\u00a0years)) and surveyed the literature for an additional 55 cases.\nRESULTS: Computed tomography and magnetic resonance imaging usually revealed a large lesion with minimal edema, heterogeneous contrast enhancement, and a discrete border. Subtotal tumor resection was performed in two patients and gross total resection in three patients. Immunostaining of the tumor cells with antisera to glial fibrillary acidic protein and vimentin was variably positive. Adjuvant therapy included local radiation and chemotherapy in all followed patients. Tumor recurrence was seen in two patients. Patients were followed from 2\u00a0months to 3.5\u00a0years (mean, 12\u00a0months). Two patients were dead at last follow-up with a mean survival of 9.5\u00a0months.\nCONCLUSIONS: The prognosis for pediatric patients with cerebellar glioblastomas is dismal, even when compared to adult counterparts or other malignant posterior fossa tumors in children. Cerebellar glioblastomas have a tendency to recur and disseminate despite treatment with surgery, chemotherapy, and radiation. The poor outcomes seen with this tumor suggest that the optimal treatment strategy has yet to be elucidated and much work needs to be done.",
+    "entities": {
+      "drugs": [
+        "chemotherapy",
+        "radiation"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "tumor recurrence",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "targets",
+        "target": "tumor"
+      },
+      {
+        "source": "radiation",
+        "relation": "targets",
+        "target": "tumor"
+      },
+      {
+        "source": "chemotherapy",
+        "relation": "associated_with",
+        "target": "tumor recurrence"
+      },
+      {
+        "source": "radiation",
+        "relation": "associated_with",
+        "target": "tumor recurrence"
+      }
+    ]
+  },
+  {
+    "pmid": "28924284",
+    "title": "Molecular biology of glioblastoma: Classification and mutational locations.",
+    "year": "2017",
+    "abstract": "Glioblastomas are regarded as the most common malignant brain tumours with great morphological and genetical heterogeneity. They comprise 12% to 15% of all intracranial tumours, with its peak observed in the 8th decade of life. The five-year survival is only 5%. Primary glioblastomas are more common in elders while secondary glioblastomas mostly involve younger people. Based upon gene expression profile, researchers have classified glioblastomas into several subtypes. Genetic mutations provide an advanced standard platform essential for diagnosis, therapeutic remedies and prognosis of glioblastomas. Common mutations observed in glioblastomas are loss of heterozygosity at 10q followed by epidermal growth factor receptor amplification (34%) and others. Vascular occlusion model and tumour stem cell model can explain the possible mechanism in glioblastomas pathogenesis. This review highlights glioblastomas' classifications, genetic mutations, pathogenesis and prognosis of different sub-types.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "EGFR"
+      ],
+      "pathways": [
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "EGFR",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "35806153",
+    "title": "MGMT and Whole-Genome DNA Methylation Impacts on Diagnosis, Prognosis and Therapy of Glioblastoma Multiforme.",
+    "year": "2022",
+    "abstract": "Epigenetic changes in DNA methylation contribute to the development of many diseases, including cancer. In glioblastoma multiforme, the most prevalent primary brain cancer and an incurable tumor with a median survival time of 15 months, a single epigenetic modification, the methylation of the  () gene, is a valid biomarker for predicting response to therapy with alkylating agents and also, independently, prognosis. More recently, the progress from single gene to whole-genome analysis of DNA methylation has allowed a better subclassification of glioblastomas. Here, we review the clinically relevant information that can be obtained by studying  gene and whole-genome DNA methylation changes in glioblastomas, also highlighting benefits, including those of liquid biopsy, and pitfalls of the different detection methods. Finally, we discuss how changes in DNA methylation, especially in glioblastomas bearing mutations in the  genes, can be exploited as targets for tailoring therapy.",
+    "entities": {
+      "drugs": [
+        "alkylating agents"
+      ],
+      "targets": [],
+      "pathways": [
+        "DNA methylation"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "alkylating agents",
+        "relation": "targets",
+        "target": "DNA methylation"
+      },
+      {
+        "source": "DNA methylation",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "DNA methylation",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "21656012",
+    "title": "Glioblastoma multiforme with very rapid growth and long-term survival in children: report of two cases and review of the literature.",
+    "year": "2011",
+    "abstract": "Glioblastoma occurs rarely in pediatric patients (0.6-7.9% of all glioblastomas). Symptom duration is about 3-5 months prior to diagnosis with a dismal prognosis (median survival of 50 weeks). The authors describe two pediatric age patients with histopathologically confirmed glioblastoma multiforme whose lesions appeared within just 1 week of normal computed tomography scan and magnetic resonance imaging. Both patients had long-term survival (one of them 6 years and the other 3 years and 7 months) following tumor resection. The present report serially illustrates the very rapid development of glioblastoma in childhood and emphasizes the importance of serial neuroimaging as well as paying attention to sudden onset headaches in pediatric patients with inconclusive imaging findings.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "tumor resection",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "22218709",
+    "title": "Glioblastoma angiogenesis: VEGF resistance solutions and new strategies based on molecular mechanisms of tumor vessel formation.",
+    "year": "2012",
+    "abstract": "Glioblastomas are highly vascular tumors. Recent preclinical and clinical investigations have revealed that agents targeting angiogenesis may have efficacy against this type of tumor. Antibodies to vascular endothelial growth factor are being studied in this patient population. Unfortunately, treatment inevitably fails. This review provides an update on recent research on the mechanisms by which tumor cells acquire resistance, and discusses recent preclinical and experimental development of novel new-generation anti-angiogenic agents that overcome this problem, especially those based on the molecular mechanisms of tumor vessel formation. The tumor vasculature not only nourishes glioblastomas, but also provides a specialized microenvironment for tumor stem-like cells and for the brain tumor. The factors, pathways, and interactions described in this review provide information about the cell biology of glioblastomas which may ultimately result in new modes of treatment.",
+    "entities": {
+      "drugs": [
+        "anti-angiogenic agents"
+      ],
+      "targets": [
+        "vascular endothelial growth factor"
+      ],
+      "pathways": [
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "anti-angiogenic agents",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "anti-angiogenic agents",
+        "relation": "targets",
+        "target": "vascular endothelial growth factor"
+      },
+      {
+        "source": "vascular endothelial growth factor",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "22440876",
+    "title": "The role of avastin in the management of recurrent glioblastoma.",
+    "year": "2012",
+    "abstract": "Glioblastoma multiforme is a malignant primary brain tumor for which no cure has been developed. However, with aggressive surgical resection, radiation, and the advent of temozolomide, the overall survival of patients with glioblastomas has improved significantly. Despite this multimodal treatment, glioblastoma invariably recurs. Although treatment options for glioblastoma recurrence are limited, one promising therapy is bevacizumab (Avastin). The role of Avastin in the management of recurrent glioblastomas is reviewed.",
+    "entities": {
+      "drugs": [
+        "Temozolomide",
+        "Bevacizumab"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Temozolomide",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "Bevacizumab",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "17456751",
+    "title": "Genetic pathways to primary and secondary glioblastoma.",
+    "year": "2007",
+    "abstract": "Glioblastoma is the most frequent and most malignant human brain tumor. The prognosis remains very poor, with most patients dying within 1 year after diagnosis. Primary and secondary glioblastoma constitute distinct disease subtypes, affecting patients of different age and developing through different genetic pathways. The majority of cases (>90%) are primary glioblastomas that develop rapidly de novo, without clinical or histological evidence of a less malignant precursor lesion. They affect mainly the elderly and are genetically characterized by loss of heterozygosity 10q (70% of cases), EGFR amplification (36%), p16(INK4a) deletion (31%), and PTEN mutations (25%). Secondary glioblastomas develop through progression from low-grade diffuse astrocytoma or anaplastic astrocytoma and manifest in younger patients. In the pathway to secondary glioblastoma, TP53 mutations are the most frequent and earliest detectable genetic alteration, already present in 60% of precursor low-grade astrocytomas. The mutation pattern is characterized by frequent G:C-->A:T mutations at CpG sites. During progression to glioblastoma, additional mutations accumulate, including loss of heterozygosity 10q25-qter ( approximately 70%), which is the most frequent genetic alteration in both primary and secondary glioblastomas. Primary and secondary glioblastomas also differ significantly in their pattern of promoter methylation and in expression profiles at RNA and protein levels. This has significant implications, particularly for the development of novel, targeted therapies, as discussed in this review.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "EGFR",
+        "PD-1",
+        "TP53",
+        "PTEN",
+        "p16(INK4a)"
+      ],
+      "pathways": [
+        "DNA repair",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "EGFR",
+        "relation": "targets",
+        "target": "tumor regression"
+      },
+      {
+        "source": "PD-1",
+        "relation": "targets",
+        "target": "tumor regression"
+      },
+      {
+        "source": "TP53",
+        "relation": "targets",
+        "target": "increased survival"
+      },
+      {
+        "source": "PTEN",
+        "relation": "targets",
+        "target": "increased survival"
+      },
+      {
+        "source": "p16(INK4a)",
+        "relation": "targets",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "23183634",
+    "title": "Diagnostic and therapeutic avenues for glioblastoma: no longer a dead end?",
+    "year": "2013",
+    "abstract": "Glioblastomas are heterogeneous neoplasms that are driven by complex signalling pathways, and are among the most aggressive and challenging cancers to treat. Despite standard treatment with resection, radiation and chemotherapy, the prognosis of patients with glioblastomas remains poor. An increasing understanding of the molecular pathogenesis of glioblastomas has stimulated the development of novel therapies, including the use of molecular-targeted agents. Identification and validation of diagnostic, prognostic and predictive biomarkers has led to the advancement of clinical trial design, and identification of glioblastoma subgroups with a more-favourable prognosis and response to therapy. In this Review, we discuss common molecular alterations relevant to the biology of glioblastomas, targeted, antiangiogenic and immunotherapies that have impacted on the treatment of this disease, and the challenges and pitfalls associated with these therapies. In addition, we emphasize current biomarkers relevant to the management of patients with glioblastoma.",
+    "entities": {
+      "drugs": [
+        "chemotherapy",
+        "immunotherapies"
+      ],
+      "targets": [],
+      "pathways": [
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "immunotherapies",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "angiogenesis",
+        "relation": "associated_with",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "immunotherapies",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "37553578",
+    "title": "Differentiating brain metastasis from glioblastoma by time-dependent diffusion MRI.",
+    "year": "2023",
+    "abstract": "BACKGROUND: This study was designed to investigate the use of time-dependent diffusion magnetic resonance imaging (MRI) parameters in distinguishing between glioblastomas and brain metastases.\nMETHODS: A retrospective study was conducted involving 65 patients with glioblastomas and 27 patients with metastases using a diffusion-weighted imaging sequence with oscillating gradient spin-echo (OGSE, 50\u00a0Hz) and a conventional pulsed gradient spin-echo (PGSE, 0\u00a0Hz) sequence. In addition to apparent diffusion coefficient (ADC) maps from two sequences (ADC and ADC), we generated maps of the ADC change (cADC): ADC\u2009-\u2009ADC and the relative ADC change (rcADC): (ADC\u2009-\u2009ADC)/ ADC\u2009\u00d7\u2009100 (%).\nRESULTS: The mean and the fifth and 95th percentile values of each parameter in enhancing and peritumoral regions were compared between glioblastomas and metastases. The area under the receiver operating characteristic curve (AUC) values of the best discriminating indices were compared. In enhancing regions, none of the indices of ADC and ADC showed significant differences between metastases and glioblastomas. The mean cADC and rcADC values of metastases were significantly higher than those of glioblastomas (0.24\u2009\u00b1\u20090.12\u2009\u00d7\u200910mm/s vs. 0.14\u2009\u00b1\u20090.03\u2009\u00d7\u200910mm/s and 23.3\u2009\u00b1\u20099.4% vs. 14.0\u2009\u00b1\u20094.7%; all p\u2009<\u20090.01). In peritumoral regions, no significant difference in all ADC indices was observed between metastases and glioblastomas. The AUC values for the mean cADC (0.877) and rcADC (0.819) values in enhancing regions were significantly higher than those for ADC (0.595; all p\u2009<\u20090.001).\nCONCLUSIONS: The time-dependent diffusion MRI parameters may be useful for differentiating brain metastases from glioblastomas.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "brain metastases",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "brain metastases",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "176331",
+    "title": "Glioblastoma multiforme in children.",
+    "year": "1976",
+    "abstract": "Of 488 children with central nervous system neoplasms, 43 (8.8%) had glioblastomas, 22 of which were in the cerebral hemispheres, 16 in the brain stem, two in the cerebellum, and three in the spinal cord. The male to female ratio was 3:2. Glioblastoma multiforme of the cerebral hemispheres occurred at a mean age of 12.7 years, and the frontal lobe was the most commonly involved. Main presenting symptoms included headache (85%), nausea or vomiting (65%), and seizures (35%). Papilledema (45%) was the most common physical finding. The longest survivals were achieved by a combination of operation and radiation (22 months). Brain stem glioblastomas occurred at a mean age of 6.7 years, with the pons as the most frequent site. Nausea or vomiting (50%) and headache (36%) were the main presenting symptoms; the major physical findings were ataxia (43%), cranial nerve palsies (28%), and paresis (28%). The length of survival was greatest with radiation alone (10.5 months). The period of survival of children with glioblastoma multiforme was significantly increased with steroid therapy. Glioblastoma multiforme behaves similarly in children and adults. Intracranial glioblastomas have a more rapidly fatal course than that of other similarly situated gliomas in childhood.",
+    "entities": {
+      "drugs": [
+        "steroid therapy",
+        "radiation"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "headache",
+        "nausea",
+        "vomiting",
+        "seizures",
+        "papilledema",
+        "ataxia",
+        "cranial nerve palsies",
+        "paresis"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "steroid therapy",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "radiation",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "38814900",
+    "title": "Understanding glioblastoma at the single-cell level: Recent advances and future challenges.",
+    "year": "2024",
+    "abstract": "Glioblastoma, the most aggressive and prevalent form of primary brain tumor, is characterized by rapid growth, diffuse infiltration, and resistance to therapies. Intrinsic heterogeneity and cellular plasticity contribute to its rapid progression under therapy; therefore, there is a need to fully understand these tumors at a single-cell level. Over the past decade, single-cell transcriptomics has enabled the molecular characterization of individual cells within glioblastomas, providing previously unattainable insights into the genetic and molecular features that drive tumorigenesis, disease progression, and therapy resistance. However, despite advances in single-cell technologies, challenges such as high costs, complex data analysis and interpretation, and difficulties in translating findings into clinical practice persist. As single-cell technologies are developed further, more insights into the cellular and molecular heterogeneity of glioblastomas are expected, which will help guide the development of personalized and effective therapies, thereby improving prognosis and quality of life for patients.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "quality of life"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "quality of life"
+      }
+    ]
+  },
+  {
+    "pmid": "18492463",
+    "title": "Antiangiogenesis treatment for glioblastoma multiforme: challenges and opportunities.",
+    "year": "2008",
+    "abstract": "Angiogenesis is a major hallmark of cancer cells, and glioblastomas are among the most angiogenic tumors. The cascade of angiogenesis is probably initiated by hypoxia, leading to the production of vascular endothelial growth factor (VEGF) and basic fibroblast growth factor (bFGF). Both VEGF and bFGF have paracrine effects on endothelial cells, pericytes, or both, causing the formation of hyperpermeable tumor blood vessels. Advanced MRI techniques, such as dynamic contrast-enhanced, dynamic susceptibility, and arterial spin labeling MRI, have provided semiquantitative measurements of tumor vascular permeability and perfusion. A decrease in vascular permeability and perfusion can be detected after antiangiogenesis drug treatment, either with monoclonal antibody such as bevacizumab that sequesters VEGF, or small-molecule VEGF receptor tyrosine kinase inhibitors. Therefore, antiangiogenesis therapies are being increasingly adopted for treating glioblastomas. However, caution must be exercised because neural stem cells are also sensitive to antiangiogenesis drugs and the combined effect of ionizing radiation. This article summarizes 30 years of laboratory and clinical research on glioblastoma angiogenesis and discusses its underlying biology, clinical trial results, vascular neuroimaging, and the potential side effects of antiangiogenesis treatment.",
+    "entities": {
+      "drugs": [
+        "bevacizumab"
+      ],
+      "targets": [
+        "VEGF",
+        "VEGF receptor"
+      ],
+      "pathways": [
+        "angiogenesis",
+        "antiangiogenesis"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "bevacizumab",
+        "relation": "targets",
+        "target": "VEGF"
+      },
+      {
+        "source": "antiangiogenesis",
+        "relation": "targets",
+        "target": "VEGF receptor"
+      },
+      {
+        "source": "antiangiogenesis",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "antiangiogenesis",
+        "relation": "associated_with",
+        "target": "adverse effects"
+      }
+    ]
+  },
+  {
+    "pmid": "33215345",
+    "title": "Congress of neurological surgeons systematic review and evidence-based guidelines update on the role of emerging developments in the management of newly diagnosed glioblastoma.",
+    "year": "2020",
+    "abstract": "TARGET POPULATION: These recommendations apply to adult patients with newly diagnosed or suspected glioblastoma.\nIMAGING: Question What imaging modalities are in development that may be able to provide improvements in diagnosis, and therapeutic guidance for individuals with newly diagnosed glioblastoma?\nRECOMMENDATION: Level III: It is suggested that techniques utilizing magnetic resonance imaging for diffusion weighted imaging, and to measure cerebral blood and magnetic spectroscopic resonance imaging of N-acetyl aspartate, choline and the choline to N-acetyl aspartate index to assist in diagnosis and treatment planning in patients with newly diagnosed or suspected glioblastoma.\nSURGERY: Question What new surgical techniques can be used to provide improved tumor definition and resectability to yield better tumor control and prognosis for individuals with newly diagnosed glioblastoma?\nRECOMMENDATIONS: Level II: The use of 5-aminolevulinic acid is recommended to improve extent of tumor resection in patients with newly diagnosed glioblastoma. Level II: The use of 5-aminolevulinic acid is recommended to improve median survival and 2 year survival in newly diagnosed glioblastoma patients with clinical characteristics suggesting poor prognosis. Level III: It is suggested that, when available, patients be enrolled in properly designed clinical trials assessing the value of diffusion tensor imaging in improving the safety of patients with newly diagnosed glioblastoma undergoing surgery.\nNEUROPATHOLOGY: Question What new pathology techniques and measurement of biomarkers in tumor tissue can be used to provide improved diagnostic ability, and determination of therapeutic responsiveness and prognosis for patients with newly diagnosed glioblastomas?\nRECOMMENDATIONS: Level II: Assessment of tumor MGMT promoter methylation status is recommended as a significant predictor of a longer progression free survival and overall survival in patients with newly diagnosed with glioblastoma. Level II: Measurement of tumor expression of neuron-glia-2, neurofilament protein, glutamine synthetase and phosphorylated STAT3 is recommended as a predictor of overall survival in patients with newly diagnosed with glioblastoma. Level III: Assessment of tumor IDH1 mutation status is suggested as a predictor of longer progression free survival and overall survival in patients with newly diagnosed with glioblastoma. Level III: Evaluation of tumor expression of Phosphorylated Mitogen-Activated Protein Kinase protein, EGFR protein, and Insulin-like Growth Factor-Binding Protein-3 is suggested as a predictor of overall survival in patients with newly diagnosed with glioblastoma.\nRADIATION: Question What radiation therapy techniques are in development that may be used to provide improved tumor control and prognosis for individuals with newly diagnosed glioblastomas?\nRECOMMENDATIONS: Level III: It is suggested that patients with newly diagnosed glioblastoma undergo pretreatment radio-labeled amino acid tracer positron emission tomography to assess areas at risk for tumor recurrence to assist in radiation treatment planning. Level III: It is suggested that, when available, patients be with newly diagnosed glioblastomas be enrolled in properly designed clinical trials of radiation dose escalation, altered fractionation, or new radiation delivery techniques.\nCHEMOTHERAPY: Question What emerging chemotherapeutic agents or techniques are available to provide better tumor control and prognosis for patients with newly diagnosed glioblastomas?\nRECOMMENDATION: Level III: As no emerging chemotherapeutic agents or techniques were identified in this review that improved tumor control and prognosis it is suggested that, when available, patients with newly diagnosed glioblastomas be enrolled in properly designed clinical trials of chemotherapy.\nMOLECULAR AND TARGETED THERAPY: Question What new targeted therapy agents are available to provide better tumor control and prognosis for individuals with newly diagnosed glioblastomas?\nRECOMMENDATION: Level III: As no new molecular and targeted therapies have clearly provided better tumor control and prognosis it is suggested that, when available, patients with newly diagnosed glioblastomas be enrolled in properly designed clinical trials of molecular and targeted therapies IMMUNOTHERAPY: Question What emerging immunotherapeutic agents or techniques are available to provide better tumor control and prognosis for patients with newly diagnosed glioblastomas?\nRECOMMENDATION: Level III: As no immunotherapeutic agents have clearly provided better tumor control and prognosis it is suggested that, when available, patients with newly diagnosed glioblastomas be enrolled in properly designed clinical trials of immunologically-based therapies.\nNOVEL THERAPIES: Question What novel therapies or techniques are in development to provide better tumor control and prognosis for individuals with newly diagnosed glioblastomas?\nRECOMMENDATIONS: Level II: The use of tumor-treating fields is recommended for patients with newly diagnosed glioblastoma who have undergone surgical debulking and completed concurrent chemoradiation without progression of disease at the time of tumor-treating field therapy initiation. Level II: It is suggested that, when available, enrollment in properly designed studies of vector containing herpes simplex thymidine kinase gene and prodrug therapies be considered in patients with newly diagnosed glioblastoma.",
+    "entities": {
+      "drugs": [
+        "5-aminolevulinic acid",
+        "tumor-treating fields",
+        "herpes simplex thymidine kinase"
+      ],
+      "targets": [
+        "MGMT",
+        "IDH1",
+        "STAT3",
+        "Phosphorylated Mitogen-Activated Protein Kinase",
+        "EGFR",
+        "Insulin-like Growth Factor-Binding Protein-3"
+      ],
+      "pathways": [
+        "DNA repair",
+        "angiogenesis",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "tumor control",
+        "prognosis",
+        "progression free survival",
+        "overall survival",
+        "tumor resection"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "5-aminolevulinic acid",
+        "relation": "targets",
+        "target": "glioblastoma"
+      },
+      {
+        "source": "tumor-treating fields",
+        "relation": "targets",
+        "target": "glioblastoma"
+      },
+      {
+        "source": "herpes simplex thymidine kinase",
+        "relation": "targets",
+        "target": "glioblastoma"
+      },
+      {
+        "source": "MGMT",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "STAT3",
+        "relation": "targets",
+        "target": "immune checkpoint"
+      },
+      {
+        "source": "Phosphorylated Mitogen-Activated Protein Kinase",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "EGFR",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "Insulin-like Growth Factor-Binding Protein-3",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "MGMT",
+        "relation": "associated_with",
+        "target": "progression free survival"
+      },
+      {
+        "source": "MGMT",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "IDH1",
+        "relation": "associated_with",
+        "target": "progression free survival"
+      },
+      {
+        "source": "IDH1",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "STAT3",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "Phosphorylated Mitogen-Activated Protein Kinase",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "EGFR",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "Insulin-like Growth Factor-Binding Protein-3",
+        "relation": "associated_with",
+        "target": "overall survival"
+      }
+    ]
+  },
+  {
+    "pmid": "20457135",
+    "title": "Potential therapeutic implications of cancer stem cells in glioblastoma.",
+    "year": "2010",
+    "abstract": "Glioblastoma is the most common and lethal type of primary brain tumor. Despite recent therapeutic advances in other cancers, the treatment of glioblastomas remains ineffective and essentially palliative. The treatment failure is a result of a number of causes, but we and others have demonstrated that a highly tumorigenic subpopulation of cancer cells called glioblastoma stem cells (GSCs) display relative resistance to radiation and chemotherapy. GSCs also contribute to tumor growth through the stimulation of angiogenesis, which has been shown to be a useful therapeutic target in the treatment of recurrent or progressive malignant gliomas. Cancer stem cells also have been hypothesized as a contributor to systemic metastases. While glioblastomas rarely metastasize beyond the central nervous system, glioblastomas invade into brain structures to prevent surgical cure and GSCs have an extremely invasive phenotype. Collectively, these studies and others suggest that GSCs may be important therapeutic targets not only to achieve cure but even reduce tumor relapse and improve overall survival. Many recent studies suggest that GSCs share core regulatory pathways with normal embryonic and somatic stem cells, but display important distinctions that provide clues into useful treatment targets. The cancer stem cell hypothesis may also modify our approaches in tumor imaging and biomarker development, but clinical validation waits. In this review, we summarize the current understanding of GSC biology with a focus on potential anti-GSC therapies.",
+    "entities": {
+      "drugs": [
+        "chemotherapy",
+        "anti-GSC therapies"
+      ],
+      "targets": [
+        "GSCs"
+      ],
+      "pathways": [
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "tumor relapse"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "targets",
+        "target": "GSCs"
+      },
+      {
+        "source": "anti-GSC therapies",
+        "relation": "targets",
+        "target": "GSCs"
+      },
+      {
+        "source": "angiogenesis",
+        "relation": "targets",
+        "target": "GSCs"
+      },
+      {
+        "source": "anti-GSC therapies",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "anti-GSC therapies",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "anti-GSC therapies",
+        "relation": "associated_with",
+        "target": "tumor relapse"
+      }
+    ]
+  },
+  {
+    "pmid": "40617935",
+    "title": "Regional profiling reveals a distinct glioblastoma infiltrative margin proteome.",
+    "year": "2025",
+    "abstract": "Isocitrate dehydrogenase wild-type glioblastoma, a malignant brain tumour of glial origin, confers a poor prognosis with a median survival of 12 to 16\u00a0months from diagnosis. Glioblastomas are aggressive tumours that rapidly proliferate and diffusely infiltrate surrounding brain tissue. Current multimodal standard treatment is typically ineffective and despite gross total surgical resection, tumours recur with more aggressive sub-clonal populations of malignant cells. A defining characteristic of glioblastoma is its highly heterogeneous nature and acquirement of somatic mutations advantageous to tumour growth and suppression of apoptotic pathways. Pathogenesis of malignant brain tumours as well as its mode of transformation to a more aggressive subtype is still largely unknown. Although genomic studies have elucidated a plethora of genetic markers associated with glioblastoma subtypes, only a few have been utilised in a clinical setting. One of the emerging approaches to studying glioblastomas is by investigating how an active proteome contributes to its aggressive nature. Furthermore, through activation of specific pathways via post-translational modifications of proteins such as phosphorylation, glioblastomas create an intricate network of signalling pathways which favour tumour growth and proliferation. Here, we investigated the feasibility of diverse methodological approaches to describe abnormal protein signalling across distinct intra-tumour regions of primary glioblastoma tissue, including proliferative core, peripheral rim, and invasive margin. Whilst we observe a broadly comparable proteome relative to the human non-diseased brain, we identify cytoplasmic proteins \u03b1-trypsin, actin, apolipoprotein A1 and transthyretin which may putatively be associated with the GBM infiltrative tumour margin.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1",
+        "actin"
+      ],
+      "pathways": [
+        "apoptotic pathways",
+        "signalling pathways"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "apoptotic pathways"
+      },
+      {
+        "source": "actin",
+        "relation": "associated_with",
+        "target": "GBM infiltrative tumour margin"
+      },
+      {
+        "source": "signalling pathways",
+        "relation": "associated_with",
+        "target": "tumour growth"
+      }
+    ]
+  },
+  {
+    "pmid": "38960714",
+    "title": {
+      "sup": "68",
+      "#text": "The Role of Fibroblast Activation Protein in Glioblastoma and Gliosarcoma: A Comparison of Tissue, Ga-FAPI-46 PET Data, and Survival Data."
+    },
+    "year": "2024",
+    "abstract": "Despite their unique histologic features, gliosarcomas belong to the group of glioblastomas and are treated according to the same standards. Fibroblast activation protein (FAP) is a component of a tumor-specific subpopulation of fibroblasts that plays a critical role in tumor growth and invasion. Some case studies suggest an elevated expression of FAP in glioblastoma and a particularly strong expression in gliosarcoma attributed to traits of predominant mesenchymal differentiation. However, the prognostic impact of FAP and its diagnostic and therapeutic potential remain unclear. Here, we investigate the clinical relevance of FAP expression in gliosarcoma and glioblastoma and how it correlates with Ga-FAP inhibitor (FAPI)-46 PET uptake.  Patients diagnosed with gliosarcoma or glioblastoma without sarcomatous differentiation with an overall survival of less than 2.5\u2009y were enrolled. Histologic examination included immunohistochemistry and semiquantitative scoring of FAP (0-3, with higher values indicating stronger expression). Additionally, Ga-FAPI-46 PET scans were performed in a subset of glioblastomas without sarcomatous differentiation patients. The clinical SUVs were correlated with FAP expression levels in surgically derived tumor tissue and relevant prognostic factors.  Of the 61 patients who were enrolled, 13 of them had gliosarcoma. Immunohistochemistry revealed significantly more FAP in gliosarcomas than in glioblastomas without sarcomatous differentiation of tumor tissue ( < 0.0001). In the latter, FAP expression was confined to the perivascular space, whereas neoplastic cells additionally expressed FAP in gliosarcoma. A significant correlation of immunohistochemical FAP with SUV and SUV of Ga-FAPI-46 PET indicates that clinical tracer uptake represents FAP expression of the tumor. Although gliosarcomas express higher levels of FAP than do glioblastomas without sarcomatous differentiation, overall survival does not significantly differ between the groups.  The analysis reveals a significant correlation between SUV and SUV in Ga-FAPI-46 PET and immunohistochemical FAP expression. This study indicates that FAP expression is much more abundant in the gliosarcoma subgroup of glioblastomas. This could open not only a diagnostic but also a therapeutic gap, since FAP could be explored as a theranostic target to enhance survival in a distinct subgroup of high-risk brain tumor patients with poor survival prognosis.",
+    "entities": {
+      "drugs": [
+        "Ga-FAP inhibitor",
+        "Ga-FAPI-46"
+      ],
+      "targets": [
+        "FAP"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "poor survival prognosis"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Ga-FAP inhibitor",
+        "relation": "targets",
+        "target": "FAP"
+      },
+      {
+        "source": "Ga-FAPI-46",
+        "relation": "targets",
+        "target": "FAP"
+      },
+      {
+        "source": "FAP",
+        "relation": "associated_with",
+        "target": "poor survival prognosis"
+      },
+      {
+        "source": "FAP",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "29138945",
+    "title": "Glioblastoma in neurofibromatosis 1 patients without IDH1, BRAF V600E, and TERT promoter mutations.",
+    "year": "2018",
+    "abstract": "Pilocytic astrocytomas and low-grade gliomas are more common compared with glioblastomas in patients with neurofibromatosis 1 (NF1). A recent genome-wide analysis has shown frequent NF1 gene alterations in the mesenchymal subtype of a glioblastoma; however, little is known about clinicopathological features of glioblastomas in NF1 patients (NF1 glioblastomas). We analyzed four NF1 glioblastomas. Radiographical and intraoperative findings showed well-circumscribed tumors from surrounding brain. Pathological analysis presented a paucity of processes with an eosinophilic cytoplasm, bizarre nuclei, xanthomatous-like appearance, multinucleated giant cells, and histiocytoid appearance. During the follow-up period, one patient died at 49\u00a0months and others remained alive for 60, 87, and 106\u00a0months; thus, patients with NF1 glioblastoma presented a relatively favorable survival. None of the NF1 glioblastomas harbored isocitrate dehydrogenase 1 (IDH1) gene mutation, v-RAF murine sarcoma viral oncogene homolog B1 (BRAF) gene mutation, and telomerase reverse transcriptase (TERT) gene promoter mutation. We identified that NF1 glioblastoma is a unique subset of glioblastoma.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1",
+        "BRAF",
+        "TERT"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "NF1 glioblastoma",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "NF1 glioblastoma",
+        "relation": "targets",
+        "target": "IDH1"
+      },
+      {
+        "source": "NF1 glioblastoma",
+        "relation": "targets",
+        "target": "BRAF"
+      },
+      {
+        "source": "NF1 glioblastoma",
+        "relation": "targets",
+        "target": "TERT"
+      }
+    ]
+  },
+  {
+    "pmid": "16759163",
+    "title": "Present and potential future issues in glioblastoma treatment.",
+    "year": "2006",
+    "abstract": "The treatment of glioblastomas requires a multidisciplinary approach that takes the presently incurable nature of the disease into consideration. Treatments are multimodal and include surgery, radiotherapy and chemotherapy. Current recommendations are that patients with glioblastomas should undergo maximum surgical resection, followed by concurrent radiation and chemotherapy with the novel alkylating drug temozolomide. This is then to be followed by additional adjuvant temozolomide for a period of up to 6 months. Major advances in surgical and imaging technologies used to treat glioblastoma patients are described. These technologies include magnetic resonance imaging and metabolic data that are helpful in the diagnosis and guiding of surgical resection. However, glioblastomas almost invariably recur near their initial sites. Disease progression usually occurs within 6 months and leads rapidly to death. A number of signaling pathways can be activated constitutively in migrating glioma cells, thus rendering these cells resistant to proapoptotic insults, such as conventional chemotherapies. Therefore, the molecular and cellular therapies and local drug delivery that could be used to complement conventional treatments are described, and some of the currently ongoing clinical trials are reviewed, with respect to these new approaches.",
+    "entities": {
+      "drugs": [
+        "temozolomide"
+      ],
+      "targets": [],
+      "pathways": [
+        "DNA repair",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "temozolomide",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "temozolomide",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "temozolomide",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "40779131",
+    "title": "Recurrence patterns and clinical outcomes in adult cerebellar glioblastoma.",
+    "year": "2025",
+    "abstract": "BACKGROUND: Cerebellar glioblastoma in adults is a rare brain tumor with poor outcomes. This study aimed to assess the clinical characteristics, genetic features, and prognosis of a series of cerebellar glioblastomas, with special attention to their recurrence patterns.\nMETHODS: We retrospectively analyzed patients who underwent treatment between 2008 and 2023. The patient characteristics, treatment methods, genetic features, and prognoses were assessed.\nRESULTS: Among 274 cases of histological glioblastomas, eleven patients with cerebellar glioblastomas were identified. Pathological results revealed microvascular proliferation and/or necrosis in all cases. All patients underwent surgery and local radiotherapy combined with temozolomide chemotherapy. The median progression-free survival and overall survival were 15.3\u00a0months and 22.8\u00a0months, respectively. Subventricular zone involvement was recognized in ten patients. Of the eight patients who experienced recurrence, seven had distant or disseminated recurrence, and only one experienced local recurrence. None of the tumors harbored mutations in the IDH1/2, H3F3A, or TERT promoters. Three patients showed negative expression of O-methylguanine DNA methyltransferase (MGMT), and four patients showed positive expression.\nCONCLUSIONS: In our cohort, cerebellar glioblastomas showed clinical characteristics such as recurrence patterns and genetic features such as IDH, H3F3A, and TERT promoter regions that differed from those of typical supratentorial gliomas. Further studies are necessary to fully elucidate the clinical characteristics.",
+    "entities": {
+      "drugs": [
+        "Temozolomide"
+      ],
+      "targets": [
+        "IDH1",
+        "IDH2",
+        "H3F3A",
+        "TERT",
+        "MGMT"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "progression-free survival",
+        "overall survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "MGMT"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "IDH1"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "IDH2"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "H3F3A"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "TERT"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "associated_with",
+        "target": "progression-free survival"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "associated_with",
+        "target": "overall survival"
+      }
+    ]
+  },
+  {
+    "pmid": "40985888",
+    "title": "Tumor heterogeneity underlies clinical outcome and MEK inhibitor response in somatic NF1-mutant glioblastoma.",
+    "year": "2025",
+    "abstract": "Tumor suppressor NF1 is recurrently mutated in glioblastoma, leading to aberrant activation of Ras/rapidly accelerated fibrosarcoma (RAF)/MEK signaling. However, how tumor heterogeneity shapes the molecular landscape and efficacy of targeted therapies remains unclear. Here, we combined bulk and single-cell genomics of human somatic NF1-mutant, isocitrate dehydrogenase (IDH) wild-type glioblastomas with functional studies in cell lines and mouse intracranial tumor models to identify mechanisms of tumor heterogeneity underlying clinical outcome and MEK inhibitor response. Targeted DNA sequencing identified CDKN2A/B homozygous deletion as a poor prognostic marker in somatic NF1-mutant, but not NF1 wild-type, glioblastoma. Single-nucleus RNA sequencing of human patient NF1-mutant glioblastomas demonstrated that mesenchymal-like (MES-like) tumor cells were enriched for MEK activation signatures. Single-cell RNA-sequencing of mouse intracranial glioblastomas treated with the MEK inhibitor selumetinib identified distinct responses among tumor subpopulations. MEK inhibition selectively depleted MES-like cells, and selumetinib-resistant MES-like cells upregulated Ras signaling while resistant non-MES cells expressed markers of glial differentiation. Finally, genome-wide CRISPR interference screens validated Ras/RAF/MEK signaling as a key mediator of selumetinib response. Repression of the RAF regulator SHOC2 sensitized glioblastomas to selumetinib in vitro and in vivo, suggesting a synergistic treatment strategy. Taken together, these results highlighted the heterogeneity of NF1-mutant glioblastomas and informed future combination therapies.",
+    "entities": {
+      "drugs": [
+        "selumetinib",
+        "Pembrolizumab",
+        "Temozolomide",
+        "CAR-T therapy"
+      ],
+      "targets": [
+        "NF1",
+        "IDH1",
+        "Ras",
+        "RAF",
+        "MEK",
+        "CDKN2A",
+        "SHOC2"
+      ],
+      "pathways": [
+        "Ras/rapidly accelerated fibrosarcoma (RAF)/MEK signaling",
+        "DNA repair",
+        "immune checkpoint",
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "selumetinib",
+        "relation": "targets",
+        "target": "MEK"
+      },
+      {
+        "source": "selumetinib",
+        "relation": "inhibits",
+        "target": "Ras/rapidly accelerated fibrosarcoma (RAF)/MEK signaling"
+      },
+      {
+        "source": "NF1",
+        "relation": "targets",
+        "target": "Ras/rapidly accelerated fibrosarcoma (RAF)/MEK signaling"
+      },
+      {
+        "source": "SHOC2",
+        "relation": "regulates",
+        "target": "RAF"
+      },
+      {
+        "source": "selumetinib",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "selumetinib",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "26194445",
+    "title": "[Isocitrate dehydrogenase type I mutation as a prognostic factor in glioblastoma and a literature review].",
+    "year": "2015",
+    "abstract": "OBJECTIVE: Treatment response and prognosis in glioblastoma (GBM) tumours can differ among patients, highlighting the growing relevance of genetic biomarkers to differentiate glioblastoma sub-types. The biomarker isocitrate dehydrogenase (IDH1) is currently receiving considerable attention. The objective of this work was to analyse the clinical and prognostic differences between glioblastomas with and without the IDH1 mutation.\nMETHODS: A retrospective study was performed on patients with GBM who underwent surgery between 2007 and 2012. The inclusion criteria were: patient age between 18-85 years who underwent surgery for the first time with complete macroscopic resection, complete adjuvant treatment with chemotherapy and radiotherapy, and a Karnofsky performance score>70.\nRESULTS: A total of 61 patients (36 males/25 famales) were included and with a mean age of 62.3 years. An IDH1mutation was found in 14 patients (23%). Median survival in patients with the IDH1 mutation (IDH1-m) was 23.6 months compared with 11.9 months in those with the wild type IDH1 (IDH1-wt) (P=.028). Disease onset in IDH1-m patients tended to be at a younger age, 58.7 vs. 63.4 years, but this difference was not statistically significant.\nCONCLUSION: Glioblastomas with IDH1-m should be considered a different entity from the IDH1-wt, as their natural history and prognosis differ. In the near future we should be classified glioblastomas based on the presence of the IDH1 mutation.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "23229792",
+    "title": "Critical multiple angiogenic factors secreted by glioblastoma stem-like cells underline the need for combinatorial anti-angiogenic therapeutic strategies.",
+    "year": "2013",
+    "abstract": "Glioblastomas are the most frequent adult primary brain tumors that still remain fatal despite major clinical efforts. As in other solid tumors, populations of glioblastoma stem-like cells (GSCs) endowed with tumor initiating and therapeutic resistance properties have been identified. Glioblastomas are highly vascularized tumors resulting in a rich dialog between GSCs and endothelial cells. In one direction, endothelial cells and their secreted proteins are able to sustain GSC properties while, in turn, GSCs can promote neoangiogenesis, modulate endothelial cell functions and may even transdifferentiate into endothelial cells. Accordingly, targeting tumor vasculature seems a promising issue despite incomplete and transient results obtained from anti-vascular endothelial growth factor therapeutic trials. Recent findings of novel GSC-secreted molecules with pro-angiogenic properties (Semaphorin 3A, hepatoma-derived growth factor) open the path to the design of a concerted attack of glioblastoma vasculature that could overcome the development of resistance to single-targeted therapies while keeping away the toxicity of the treatments.",
+    "entities": {
+      "drugs": [
+        "Semaphorin 3A",
+        "hepatoma-derived growth factor"
+      ],
+      "targets": [],
+      "pathways": [
+        "neoangiogenesis",
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "resistance"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Semaphorin 3A",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "hepatoma-derived growth factor",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "Semaphorin 3A",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "hepatoma-derived growth factor",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "GSCs",
+        "relation": "regulates",
+        "target": "neoangiogenesis"
+      }
+    ]
+  },
+  {
+    "pmid": "11138924",
+    "title": "Systemic metastasis in glioblastoma may represent the emergence of neoplastic subclones.",
+    "year": "2000",
+    "abstract": "Glioblastomas only rarely metastasize to sites outside the central nervous system, for reasons that are poorly understood. We report the clinicopathological and molecular genetic findings in 6 patients with metastatic glioblastoma. Four patients were under the age of 32 and all but 1 patient died within 2 yr of diagnosis. The number of metastases ranged from 1 to 3. At the time of death, 3 patients had apparent tumor control at their primary site. We evaluated DNA from both primary and metastatic glioblastomas for genetic alterations commonly found in glioblastomas: TP53 mutations, CDKN2A/p16 deletions, EGFR amplification, and allelic loss of chromosomes 1p, 10q and 19q. Four of 6 cases had TP53 mutations and only single cases had EGFR amplification, CDKN2A/p16 deletions, or allelic loss of 1p, 10q and 19q; 2 cases had no detectable genetic alterations. In 2 cases, the primary and metastatic tumors had identical genotypes. Remarkably, however, 2 cases had different TP53 alterations in the primary and metastatic lesions, or among the metastatic tumors, which suggests that some metastatic deposits may represent emergence of subclones that were not necessarily dominant in the primary tumor. The present observations and a review of the recent literature demonstrate that metastatic glioblastomas tend to occur in younger adults who do not follow long clinical courses, and may be characterized by TP53 mutations and differential clonal selection.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "TP53",
+        "CDKN2A",
+        "EGFR",
+        "p16"
+      ],
+      "pathways": [
+        "clonal selection"
+      ],
+      "outcomes": [
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "EGFR",
+        "relation": "targets",
+        "target": "CDKN2A"
+      },
+      {
+        "source": "TP53",
+        "relation": "targets",
+        "target": "CDKN2A"
+      },
+      {
+        "source": "TP53",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "clonal selection",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "29162526",
+    "title": "Surgical Resection of Anterior and Posterior Butterfly Glioblastoma.",
+    "year": "2018",
+    "abstract": "BACKGROUND: Evidence suggests a survival benefit for patients with glioblastoma who undergo maximal safe surgical resection. Not all glioblastomas are amenable to surgical resection and anatomic location is one potentially limiting factor. Glioblastomas that invade the corpus callosum and cross midline to the contralateral hemisphere-butterfly glioblastomas (bGBMs)-are one subgroup of tumors traditionally deemed inoperable.\nMETHODS: We evaluate the management of bGBMs at our institution to assess whether surgical resection is feasible, safe, and more effective than biopsy. We retrospectively reviewed our institutional brain tumor registry for all adult patients treated for glioblastoma (World Health Organization grade IV) between 2004 and 2016 to identify all bGBMs.\nRESULTS: Survival between biopsy and resection was assessed using the Kaplan-Meier model. Twenty-nine (3.8%) of 764 newly diagnosed GBMs were identified as bGBM. Of these, 9 patients (31.0%) underwent surgical resection and 20 patients (69.0%) underwent biopsy. Five patients (55.6%) in the surgical resection group had 98% extent of resection or greater. Median survival of our entire cohort of patients was 3.3 months. Median survival was higher in the surgical resection groups (7.8 vs. 2.8 months; P\u00a0= 0.0019). Increased age is independently associated with increased risk of death, and adjuvant therapy is independently associated with prolonged survival.\nCONCLUSIONS: Surgical resection of butterfly glioblastoma prolongs survival without increased risk of permanent neurologic deficit. Both anterior and posterior bGBMs can be resected safely.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "surgical resection",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "adjuvant therapy",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "37225786",
+    "title": "P2X7 receptor antagonism by AZ10606120 significantly reduced in vitro tumour growth in human glioblastoma.",
+    "year": "2023",
+    "abstract": "Glioblastomas are highly aggressive and deadly brain tumours, with a median survival time of 14-18\u00a0months post-diagnosis. Current treatment modalities are limited and only modestly increase survival time. Effective therapeutic alternatives are urgently needed. The purinergic P2X7 receptor (P2X7R) is activated within the glioblastoma microenvironment and evidence suggests it contributes to tumour growth. Studies have implicated P2X7R involvement in a range of neoplasms, including glioblastomas, although the roles of P2X7R in the tumour milieu remain unclear. Here, we report a trophic, tumour-promoting role of P2X7R activation in both patient-derived primary glioblastoma cultures and the U251 human glioblastoma cell line, and demonstrate its inhibition reduces tumour growth in vitro. Primary glioblastoma and U251 cell cultures were treated with the specific P2X7R antagonist, AZ10606120 (AZ), for 72\u00a0h. The effects of AZ treatment were also compared to cells treated with the current first-line chemotherapeutic drug, temozolomide (TMZ), and a combination of both AZ and TMZ. P2X7R antagonism by AZ significantly depleted glioblastoma cell numbers compared to untreated cells, in both primary glioblastoma and U251 cultures. Notably, AZ treatment was more effective at tumour cell killing than TMZ. No synergistic effect between AZ and TMZ was observed. AZ treatment also significantly increased lactate dehydrogenase release in primary glioblastoma cultures, suggesting AZ-induced cellular cytotoxicity. Our results reveal a trophic role of P2X7R in glioblastoma. Importantly, these data highlight the potential for P2X7R inhibition as a novel and effective alternative therapeutic approach for patients with lethal glioblastomas.",
+    "entities": {
+      "drugs": [
+        "Temozolomide",
+        "AZ10606120",
+        "AZ"
+      ],
+      "targets": [
+        "P2X7 receptor",
+        "P2X7R",
+        "IDH1"
+      ],
+      "pathways": [
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "tumor growth",
+        "cellular cytotoxicity"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "AZ10606120",
+        "relation": "targets",
+        "target": "P2X7 receptor"
+      },
+      {
+        "source": "AZ10606120",
+        "relation": "inhibits",
+        "target": "P2X7 receptor"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "P2X7 receptor"
+      },
+      {
+        "source": "AZ10606120",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "AZ10606120",
+        "relation": "associated_with",
+        "target": "cellular cytotoxicity"
+      },
+      {
+        "source": "P2X7 receptor",
+        "relation": "targets",
+        "target": "tumor growth"
+      }
+    ]
+  },
+  {
+    "pmid": "33215339",
+    "title": "Congress of neurological surgeons systematic review and evidence-based clinical practice parameter guidelines for the treatment of adults with newly diagnosed glioblastoma: Introduction and Methods.",
+    "year": "2020",
+    "abstract": "PURPOSE: This is an update of the evidence-based guideline for management of newly diagnosed glioblastomas sponsored by the American Association of Neurological Surgeons (AANS) and Congress of Neurological Surgeons (CNS) initially published in 2008. The objective is to update evidence-based management of newly diagnosed glioblastomas over all commonly used diagnostic and treatment modalities in regularly encountered clinical situations.\nMETHODS: A multidisciplinary writing group was assembled to create documents related to imaging, cytoreductive surgery, neuropathology, radiation therapy, chemotherapy and emerging developments. Questions from the prior set of guidelines, and new and modified questions were used to guide a search of the scientific literature since the last guideline search was completed in June 2005. Citations were screened, classified and used as evidence to create recommendations addressing the questions in\u00a0a manner that was directly linked to this evidence.\nRESULTS: The sixteen writers produced 34 questions resulting in eight Level I recommendations, eleven Level II recommendations, and 27 Level II recommendations across all the topics. In some instances, insufficient data was available to answer all or part of a question and this is stated and explained.\nCONCLUSIONS: This series of guidelines is based upon relevant evidence in the literature related to the management of newly diagnosed glioblastomas. They set a benchmark for the management of this disease while highlighting key areas of weakness in our knowledge and suggest directions for future basic and clinical research to improve evidence quality and recommendation strength.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": []
+    },
+    "relationships": []
+  },
+  {
+    "pmid": "33972663",
+    "title": "Generative adversarial network for glioblastoma ensures morphologic variations and improves diagnostic model for isocitrate dehydrogenase mutant type.",
+    "year": "2021",
+    "abstract": "Generative adversarial network (GAN) creates synthetic images to increase data quantity, but whether GAN ensures meaningful morphologic variations is still unknown. We investigated whether GAN-based synthetic images provide sufficient morphologic variations to improve molecular-based prediction, as a rare disease of isocitrate dehydrogenase (IDH)-mutant glioblastomas. GAN was initially trained on 500 normal brains and 110 IDH-mutant high-grade astocytomas, and paired contrast-enhanced T1-weighted and FLAIR MRI data were generated. Diagnostic models were developed from real IDH-wild type (n\u2009=\u200980) with real IDH-mutant glioblastomas (n\u2009=\u200938), or with synthetic IDH-mutant glioblastomas, or augmented by adding both real and synthetic IDH-mutant glioblastomas. Turing tests showed synthetic data showed reality (classification rate of 55%). Both the real and synthetic data showed that a more frontal or insular location (odds ratio [OR] 1.34 vs. 1.52; P\u2009=\u20090.04) and distinct non-enhancing tumor margins (OR 2.68 vs. 3.88; P\u2009<\u20090.001), which become significant predictors of IDH-mutation. In an independent validation set, diagnostic accuracy was higher for the augmented model (90.9% [40/44] and 93.2% [41/44] for each reader, respectively) than for the real model (84.1% [37/44] and 86.4% [38/44] for each reader, respectively). The GAN-based synthetic images yield morphologically variable, realistic-seeming IDH-mutant glioblastomas. GAN will be useful to create a realistic training set in terms of morphologic variations and quality, thereby improving diagnostic performance in a clinical model.",
+    "entities": {
+      "drugs": [
+        "GAN"
+      ],
+      "targets": [
+        "IDH1",
+        "IDH"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "GAN",
+        "relation": "targets",
+        "target": "IDH1"
+      },
+      {
+        "source": "GAN",
+        "relation": "targets",
+        "target": "IDH"
+      },
+      {
+        "source": "GAN",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "GAN",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "35213602",
+    "title": "Prognostic value of 11C-methionine volume-based PET parameters in IDH wild type glioblastoma.",
+    "year": "2022",
+    "abstract": "PURPOSE: 11C-Methionine (11C-MET) PET prognostication of isocitrate dehydrogenase (IDH) wild type glioblastomas is inadequate as conventional parameters such as standardized uptake value (SUV) do not adequately reflect tumor heterogeneity. We retrospectively evaluated whether volume-based parameters such as metabolic tumor volume (MTV) and total lesion methionine metabolism (TLMM) outperformed SUV for survival correlation in patients with IDH wild type glioblastomas.\nMETHODS: Thirteen IDH wild type glioblastoma patients underwent preoperative 11C-MET PET. Both SUV-based parameters and volume-based parameters were calculated for each lesion. Kaplan-Meier curves with log-rank testing and Cox regression analysis were used for correlation between PET parameters and overall survival.\nRESULTS: Median overall survival for the entire cohort was 393 days. MTV (HR 1.136, p = 0.007) and TLMM (HR 1.022, p = 0.030) were inversely correlated with overall survival. SUV-based 11C-MET PET parameters did not show a correlation with survival. In a paired analysis with other clinical parameters including age and radiotherapy dose, MTV and TLMM were found to be independent factors.\nCONCLUSIONS: MTV and TLMM, and not SUV, significantly correlate with overall survival in patients with IDH wild type glioblastomas. The incorporation of volume-based 11C-MET PET parameters may lead to a better outcome prediction for this heterogeneous patient population.",
+    "entities": {
+      "drugs": [
+        "11C-Methionine",
+        "11C-MET"
+      ],
+      "targets": [
+        "IDH"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "overall survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "11C-Methionine",
+        "relation": "targets",
+        "target": "IDH"
+      },
+      {
+        "source": "11C-MET",
+        "relation": "targets",
+        "target": "IDH"
+      },
+      {
+        "source": "MTV",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "TLMM",
+        "relation": "associated_with",
+        "target": "overall survival"
+      }
+    ]
+  },
+  {
+    "pmid": "31489579",
+    "title": "MiR-148a inhibits the proliferation and migration of glioblastoma by targeting ITGA9.",
+    "year": "2019",
+    "abstract": "Glioblastoma is a common malignant primary intracranial tumor characterized by rapid invasive growth and a high recurrence rate after surgery. MicroRNAs (miRNAs) are involved in cell proliferation, differentiation, and apoptosis, and abnormal miRNA expression is associated with the occurrence and progression of various tumors, including glioblastomas. The aim of this study was to determine the levels of miR-148a and integrin subunit alpha 9 (ITGA9) in glioblastoma tissues and cells and their involvement in cancer cell proliferation and migration. Glioblastoma tissues from 19 patients and two glioblastoma cell lines (U87 and LN229) were used in this study. The effects of miR-148a on cell viability, proliferation, colony formation, migration, and invasion were assessed. Glioblastomas were xenografted in nude mice to examine the effects of miR-148a overexpression on tumor growth in vivo. Levels of ITGA9 mRNA and protein in glioblastoma tissues were detected by quantitative reverse transcription PCR and western blot analysis, respectively. The interaction between miR-148a and ITGA9 was determined by a dual-luciferase reporter gene assay. We found that the overexpression of miR-148a decreases the proliferation, clustering, migration, and invasiveness of U87 and LN229 cells and inhibits the tumorigenicity of xenografted glioblastomas. We confirmed that ITGA9 is the target of miR-148a. Restoration of ITGA9 expression reversed the decreased viability, migration, and invasiveness of glioblastoma cells induced by miR-148a overexpression. Our findings indicate that miR-148a can suppress the malignant phenotype of glioblastoma by targeting ITGA9 and identify ITGA9 as a potential therapeutic target for glioblastoma.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "ITGA9",
+        "miR-148a"
+      ],
+      "pathways": [
+        "cell proliferation",
+        "apoptosis",
+        "DNA repair"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "miR-148a",
+        "relation": "targets",
+        "target": "ITGA9"
+      },
+      {
+        "source": "miR-148a",
+        "relation": "inhibits",
+        "target": "cell proliferation"
+      },
+      {
+        "source": "miR-148a",
+        "relation": "inhibits",
+        "target": "migration"
+      },
+      {
+        "source": "miR-148a",
+        "relation": "inhibits",
+        "target": "invasiveness"
+      },
+      {
+        "source": "miR-148a",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "miR-148a",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "23969153",
+    "title": "Potential role of advanced MRI techniques for the peritumoural region in differentiating glioblastoma multiforme and solitary metastatic lesions.",
+    "year": "2013",
+    "abstract": "Differentiation between solitary metastatic lesions and glioblastomas, two of the most common malignant brain neoplasms, is often a diagnostic challenge. The purpose of this review is to emphasize the potential roles of advanced magnetic resonance imaging (MRI) techniques, including diffusion-based techniques, such as diffusion-weighted imaging (DWI), exponential DWI, and diffusion tensor imaging, MR perfusion, and MR spectroscopy, as well as conventional MRI, in making a distinction between glioblastomas and solitary metastases in peritumoural regions. Integration of advanced MRI features with conventional MRI, may provide valuable information for differentiating glioblastoma from solitary metastatic lesions.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": []
+    },
+    "relationships": [
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "diagnostic challenge"
+      },
+      {
+        "source": "diffusion-weighted imaging",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "MR perfusion",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "MR spectroscopy",
+        "relation": "targets",
+        "target": "glioblastomas"
+      },
+      {
+        "source": "MRI",
+        "relation": "targets",
+        "target": "glioblastomas"
+      }
+    ]
+  },
+  {
+    "pmid": "22492958",
+    "title": "Glioblastoma blood flow measured with stable xenon CT indicates tumor necrosis, vascularity, and brain invasion.",
+    "year": "2012",
+    "abstract": "Tumor vasculature is a promising therapeutic target in glioblastoma. Imaging tumor blood flow may help assess the efficacy of anti-angiogenic treatments. We determined the clinical usefulness of stable xenon CT performed preoperatively in patients with glioblastoma. This is a prospective cohort study. We determined absolute tumor blood flow before surgery in 38 patients with glioblastoma using stable xenon CT. We also histologically examined tumor specimens obtained from surgery and quantified their vascularity (by CD31 and CD105 immunostain), necrosis (by hematoxylin and eosin stain), and the presence of neuronal processes (by neurofilament immunostain). According to the xenon CT blood flow map, there are 3 types of glioblastoma. Type I glioblastomas have unimodal high blood flow histograms; histologically there is little necrosis and vascular proliferation. Type II glioblastomas have unimodal low blood flow histograms; histologically there is prominent necrosis and vascular proliferation. We propose that in type II glioblastoma, the abnormal vessels induced by hypoxia are inefficient at promoting blood flow. Type III glioblastomas have multimodal blood flow histograms. Histologically there is significant neuronal tissue within the tumor. Patients with type III glioblastomas were more likely to develop a post-surgical deficit, consistent with the inclusion of normal tissue within the tumor. Preoperative measurement of absolute blood flow with stable xenon CT in patients with glioblastoma predicts key biological features of the tumor and may aid surgical planning.",
+    "entities": {
+      "drugs": [
+        "stable xenon CT"
+      ],
+      "targets": [],
+      "pathways": [
+        "angiogenesis",
+        "hypoxia"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "stable xenon CT",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "hypoxia",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "stable xenon CT",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "stable xenon CT",
+        "relation": "associated_with",
+        "target": "adverse effects"
+      }
+    ]
+  },
+  {
+    "pmid": "9694343",
+    "title": "Favorable outcome of giant cell glioblastoma in a child. Report of an 11-year survival period.",
+    "year": "1998",
+    "abstract": "Giant cell glioblastomas are defined as glioblastomas with a marked predominance of bizarre, multinucleated giant cells. They represent about 5% of all glioblastomas and can occur at any site of the central nervous system, but the temporal and frontal lobes are the sites of predilection. Overall, giant cell glioblastomas show a prolonged survival period compared with common glioblastoma multiforme, and survival periods of 7 and 9 years have been reported in adults. Here we report on a child aged 11 years at diagnosis, who has so far survived for 11 years since operation and adjunctive radio- and chemotherapy.",
+    "entities": {
+      "drugs": [
+        "chemotherapy"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "26452024",
+    "title": "Biomarker-based prognostic stratification of young adult glioblastoma.",
+    "year": "2016",
+    "abstract": "While the predominant elderly and the pediatric glioblastomas have been extensively investigated, young adult glioblastomas were understudied. In this study, we sought to stratify young adult glioblastomas by BRAF, H3F3A and IDH1 mutations and examine the clinical relevance of the biomarkers. In 107 glioblastomas aged from 17 to 35 years, mutually exclusive BRAF-V600E (15%), H3F3A-K27M (15.9%), H3F3A-G34R/V (2.8%) and IDH1-R132H (16.8%) mutations were identified in over half of the cases. EGFR amplification and TERTp mutation were only detected in 3.7% and 8.4% in young adult glioblastomas, respectively. BRAF-V600E identified a clinically favorable subset of glioblastomas with younger age, frequent CDKN2A homozygous deletion, and was more amendable to surgical resection. H3F3A-K27M mutated glioblastomas were tightly associated with midline locations and showed dismal prognosis. IDH1-R132H was associated with older age and favorable outcome. Interestingly, tumors with positive PDGFRA immunohistochemical expression exhibited poorer prognosis and identified an aggressive subset of tumors among K27M mutated glioblastomas. Combining BRAF, H3F3A and IDH1 mutations allowed stratification of young adult glioblastomas into four prognostic subgroups. In summary, our study demonstrates the clinical values of stratifying young adult glioblastomas with BRAF, H3F3A and IDH1 mutations, which has important implications in refining prognostic classification of glioblastomas.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "BRAF",
+        "H3F3A",
+        "IDH1",
+        "EGFR",
+        "TERTp",
+        "PDGFRA",
+        "CDKN2A"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "poorer prognosis",
+        "dismal prognosis",
+        "favorable outcome"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "BRAF",
+        "relation": "targets",
+        "target": "CDKN2A"
+      },
+      {
+        "source": "H3F3A",
+        "relation": "targets",
+        "target": "CDKN2A"
+      },
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "CDKN2A"
+      },
+      {
+        "source": "H3F3A",
+        "relation": "associated_with",
+        "target": "dismal prognosis"
+      },
+      {
+        "source": "IDH1",
+        "relation": "associated_with",
+        "target": "favorable outcome"
+      },
+      {
+        "source": "PDGFRA",
+        "relation": "associated_with",
+        "target": "poorer prognosis"
+      }
+    ]
+  },
+  {
+    "pmid": "1653908",
+    "title": "Spindle-cell glioblastoma or gliosarcoma?",
+    "year": "1991",
+    "abstract": "'Gliosarcomas' have long been considered to be mixed gliomas and sarcomas. The present study failed to define criteria which clearly delineate 'gliosarcomas' from glioblastoma multiforme and suggests that 'gliosarcomas' should be considered as spindle cell glioblastomas. A total of six cases originally diagnosed as 'gliosarcomas' were compared with four cases of glioblastoma multiforme. No clinical or prognostic features were defined which would clearly separate 'gliosarcomas' from glioblastoma multiforme. Macroscopically, biopsies from 'gliosarcomas' ranged from firm, apparently well-circumscribed tumours to poorly circumscribed lesions with a soft consistency resembling glioblastoma multiforme. Histology revealed a continuous spectrum in which 'gliosarcomas' with large reticulin-rich areas of spindle cells merged with typical glioblastomas containing only small islands of spindle cells and reticulin staining. Immunocytochemistry for glial fibrillary acidic protein (GFAP); S100 protein and alpha-smooth muscle actin (ASMA) showed that the majority of cells in reticulin-poor areas of 'gliosarcoma' and glioblastomas expressed S100 protein and GFAP; many expressed ASMA and some expressed both GFAP and ASMA. Spindle cells in reticulin-rich areas of 'gliosarcomas' and glioblastomas most frequently expressed ASMA but many cells also expressed S100 protein and GFAP; some cells expressed both GFAP and ASMA. The results of this study and a review of the literature suggests that there is a clinical, radiological and pathological continuum with glioblastoma and 'gliosarcoma' at different ends of the spectrum. It is suggested, therefore, that most, if not all, 'gliosarcomas' be redesignated as spindle cell glioblastomas and not be considered as a mixture of glioma and sarcoma.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": []
+    },
+    "relationships": [
+      {
+        "source": "gliosarcomas",
+        "relation": "associated_with",
+        "target": "glioblastoma"
+      },
+      {
+        "source": "gliosarcomas",
+        "relation": "associated_with",
+        "target": "sarcoma"
+      }
+    ]
+  },
+  {
+    "pmid": "34518039",
+    "title": "Detection of NTRK fusions in glioblastoma: fluorescent in situ hybridisation is more useful than pan-TRK immunohistochemistry as a screening tool prior to RNA sequencing.",
+    "year": "2022",
+    "abstract": "Glioblastomas are frequent malignant brain tumours with a very poor prognosis and a need for new and efficient therapeutic strategies. With the approval of anti-TRK targeted therapies to treat patients with advanced NTRK-rearranged cancers, independent of the type of cancer, potential new treatment opportunities are available for the 0.5-5% of patients with NTRK-rearranged glioblastomas. Identification of these rare NTRK-rearranged glioblastomas requires efficient diagnostic tools and strategies which are evaluated in this study. We compared the results of NTRK1, NTRK2 and NTRK3 fluorescent in situ hybridisation (FISH) assays to those of pan-TRK immunohistochemistry (IHC) using two EPR17341 and A7H6R clones in a set of 196 patients with glioblastomas. Cases with at least 15% of positive nuclei using FISH analyses were further analysed using RNA sequencing. Above the 15% threshold, seven positive glioblastomas (3.57%) were identified by FISH assays (4 NTRK1, 3 NTRK2, no NTRK3). NTRK rearrangements were confirmed by RNA sequencing analyses in four cases [1 LMNA-NTRK1, 1 PRKAR2A-NTRK2, 1 SPECC1L-NTRK2 and 1 NACC2-NTRK2 fusions, i.e., 4/196 (2%) of NTRK-rearranged tumours in our series] but no rearrangement was detected in three samples with less than 30% of positive tumour nuclei as determined by NTRK1 FISH. Pan-TRK immunostaining showed major discrepancies when using either the EPR17341 or the A7H6R clones for the following criteria: main intensity, H-Score based scoring and homogeneity/heterogeneity of staining (Kappa values <0.2). This led to defining adequate criteria to identify NTRK-rearranged gliomas exhibiting strong and diffuse immunostaining contrasting to the variable and heterogeneous staining in non-NTRK-rearranged gliomas (p<0.0001). As assessing NTRK rearrangements has become crucial for glioma therapy, FISH seems to be a valuable tool to maximise access to TRK testing in patients with glioblastomas. In contrast to other cancers, pan-TRK IHC appears of limited interest in this field because there is no 'on/off' IHC positivity criterion to distinguish between NTRK-rearranged and non-NTRK-rearranged gliomas. RNA sequencing analyses are necessary in FISH positive cases with less than 30% positive nuclei, to avoid false positivity when scoring is close to the detection threshold.",
+    "entities": {
+      "drugs": [
+        "Pembrolizumab",
+        "Temozolomide",
+        "CAR-T therapy"
+      ],
+      "targets": [
+        "TRK",
+        "NTRK1",
+        "NTRK2",
+        "NTRK3",
+        "IDH1",
+        "PD-1",
+        "EGFR"
+      ],
+      "pathways": [
+        "immune checkpoint",
+        "angiogenesis",
+        "DNA repair"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "TRK",
+        "relation": "targets",
+        "target": "NTRK1"
+      },
+      {
+        "source": "TRK",
+        "relation": "targets",
+        "target": "NTRK2"
+      },
+      {
+        "source": "TRK",
+        "relation": "targets",
+        "target": "NTRK3"
+      },
+      {
+        "source": "anti-TRK",
+        "relation": "targets",
+        "target": "TRK"
+      },
+      {
+        "source": "NTRK1",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "NTRK2",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "NTRK3",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "39449228",
+    "title": "Characterisation of the tumour microenvironment in primary and recurrent glioblastomas.",
+    "year": "2024",
+    "abstract": "AIMS: Glioblastoma patients have a dismal prognosis, due to inevitable tumour recurrence and respond poorly to immunotherapy. Tumour-associated microglia/macrophages (TAMs) dominate the glioblastoma tumour microenvironment and have been implicated in tumour progression and immune evasion. Early recurrent glioblastomas contain focal reactive regions with occasional fibrosis, chronic inflammation, TAMs and tumour cells. Surgical specimens from these tumours are rare and provide crucial insights into glioblastoma recurrence biology. This study aimed to characterise TAM- and lymphocyte phenotypes in primary vs early- and late-recurrent glioblastomas.\nMETHODS: Patient-matched primary and recurrent glioblastomas were compared between patients with early recurrences (n\u2009=\u200911, recurrence \u22646\u00a0months) and late recurrences (n\u2009=\u200912, recurrence after 12-19\u2009months). Double-immunofluorescence stains combining Iba1 with HLA-DR, CD14, CD68, CD74, CD86, CD163, CD204 and CD206 along with stains for CD20, CD3, CD8 and FOXP3 were quantified with software-based classifiers.\nRESULTS: Reactive regions in early recurrent tumours contained more TAMs (31.4% vs 21.7%, P\u2009=\u20090.01), which showed increased expression of CD86 (59.4% vs 38.4%, P\u2009=\u20090.04), CD204 (48.5% vs 28.4%, P\u2009=\u20090.03), CD206 (25.5% vs 14.4%, P\u2009=\u20090.04) and increased staining intensity for CD163 (86.4 vs 57.7 arbitrary units, P\u2009=\u20090.02), compared to late recurring tumours. Reactive regions contained more B-lymphocytes compared to patient-matched primary tumours (0.71% vs 0.40%, P\u2009=\u20090.04). Fractions of total, cytotoxic and regulatory T-lymphocytes did not differ.\nCONCLUSIONS: Early recurrent glioblastomas showed enrichment for TAMs, expressing both pro- and anti-inflammatory markers and B-lymphocytes. This may indicate a time-dependent response to immunotherapy explained by time-dependent alterations in the immune-microenvironment in recurrent glioblastomas.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "PD-1",
+        "HLA-DR",
+        "CD14",
+        "CD68",
+        "CD74",
+        "CD86",
+        "CD163",
+        "CD204",
+        "CD206",
+        "CD20",
+        "CD3",
+        "CD8",
+        "FOXP3"
+      ],
+      "pathways": [
+        "immune-microenvironment",
+        "immunotherapy"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "TAMs",
+        "relation": "targets",
+        "target": "CD86"
+      },
+      {
+        "source": "TAMs",
+        "relation": "targets",
+        "target": "CD204"
+      },
+      {
+        "source": "TAMs",
+        "relation": "targets",
+        "target": "CD206"
+      },
+      {
+        "source": "TAMs",
+        "relation": "targets",
+        "target": "CD163"
+      },
+      {
+        "source": "TAMs",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "immunotherapy",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "immune-microenvironment",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "34713474",
+    "title": {
+      "sup": "+",
+      "#text": "Tumour-associated CD204 microglia/macrophages accumulate in perivascular and perinecrotic niches and correlate with an interleukin-6-enriched inflammatory profile in glioblastoma."
+    },
+    "year": "2022",
+    "abstract": "AIMS: Glioblastomas are heterogeneous tumours with a rich tumour microenvironment particularly comprised of tumour-associated microglia/macrophages (TAMs), but also containing a population of dedifferentiated/stem-like glioblastoma cells. Both cell populations contribute to tumour aggressiveness and immune evasion through the actions of various signalling molecules. The scavenger and pattern recognition receptor CD204 is associated with a pro-tumourigenic phenotype of TAMs and has a negative prognostic value. Our objective was to investigate the possible interaction between TAMs and dedifferentiated glioblastoma cells and characterise the myeloid phenotype of CD204-enriched glioblastomas.\nMETHODS: Double immunohistochemistry and cell counting was performed on eight glioblastoma samples to estimate the expression and interaction level between dedifferentiated/stem-like tumour cells and TAMs. Using the NanoString technology, myeloid transcriptome profiling was performed on 46 glioblastomas, which had been selected based on their protein expression levels of CD204 and ionised calcium-binding adaptor molecule-1 (IBA1). The results were validated by immunohistochemistry and in silico gene expression analyses.\nRESULTS: TAMs especially CD204 TAMs accumulated in perivascular and perinecrotic niches in close proximity to podoplanin glioblastoma cells. Gene profiling revealed that CD204-enriched glioblastoma has a unique signature with upregulation of genes related to hypoxia, angiogenesis and invasion, including interleukin-6. The gene signature favoured a poor prognosis in patients with glioblastoma.\nCONCLUSIONS: This is the first study to characterise the role of CD204 in the myeloid microenvironment of glioblastoma. Our results support the unfavourable prognostic impact of CD204 and suggest that CD204 and interleukin-6 could serve as targets for re-education of TAMs and potentiation of current anti-glioma therapy.",
+    "entities": {
+      "drugs": [
+        "anti-glioma therapy"
+      ],
+      "targets": [
+        "CD204",
+        "IBA1",
+        "interleukin-6"
+      ],
+      "pathways": [
+        "angiogenesis",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "poor prognosis",
+        "unfavourable prognostic impact"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "anti-glioma therapy",
+        "relation": "targets",
+        "target": "CD204"
+      },
+      {
+        "source": "anti-glioma therapy",
+        "relation": "targets",
+        "target": "interleukin-6"
+      },
+      {
+        "source": "CD204",
+        "relation": "associated_with",
+        "target": "poor prognosis"
+      },
+      {
+        "source": "CD204",
+        "relation": "associated_with",
+        "target": "unfavourable prognostic impact"
+      },
+      {
+        "source": "interleukin-6",
+        "relation": "associated_with",
+        "target": "poor prognosis"
+      }
+    ]
+  },
+  {
+    "pmid": "11939587",
+    "title": "Impact of genotype and morphology on the prognosis of glioblastoma.",
+    "year": "2002",
+    "abstract": "The recognition of molecular subsets among glioblastomas has raised the question whether distinct mutations in glioblastoma-associated genes may serve as prognostic markers. The present study on glioblastomas (GBM) from 97 consecutively sampled adult patients is based on a clinical, histopathological, immunohistochemical, and molecular genetic analysis. Parameters assessed were age at diagnosis, survival, cell type, proliferation, necrosis, microvascular proliferation, sarcomatous growth, lymphocytic infiltration, thromboses, calcifications, GFAP expression, MIB-1 index, loss of heterozygosity (LOH) of the chromosomal arms 1p, 10p, 10q, 17p, 19q and structural alterations in the TP53, EGFR and PTEN genes. As in previous studies, younger age was significantly associated with better survival. Among the molecular parameters, TP53 mutations and LOH10q emerged as favorable and poor prognostic factors, respectively. TP53 mutations were a favorable prognostic factor independent of whether glioblastomas were primary or secondary. LOH1p or 19q, lesions suspected to be over-represented in long term survivors with malignant glioma, were not associated with better survival. However, the combination of LOH1p and LOH19q defined GBM patients with a significantly better survival. Notably, these patients did not exhibit morphological features reminiscent of oligodendroglioma. These findings indicate that genotyping of glioblastoma may provide clinical information of prognostic importance.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "TP53",
+        "EGFR",
+        "PTEN",
+        "GFAP"
+      ],
+      "pathways": [
+        "angiogenesis"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "TP53",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "TP53",
+        "relation": "associated_with",
+        "target": "survival"
+      },
+      {
+        "source": "EGFR",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "PTEN",
+        "relation": "targets",
+        "target": "angiogenesis"
+      },
+      {
+        "source": "GFAP",
+        "relation": "associated_with",
+        "target": "survival"
+      }
+    ]
+  },
+  {
+    "pmid": "38244080",
+    "title": "Temporal change of DNA methylation subclasses between matched newly diagnosed and recurrent glioblastoma.",
+    "year": "2024",
+    "abstract": "The longitudinal transition of phenotypes is pivotal in glioblastoma treatment resistance\u00a0and DNA methylation emerged as an important tool for classifying glioblastoma phenotypes. We aimed to characterize DNA methylation subclass heterogeneity during progression and assess its clinical impact. Matched tissues from 47 glioblastoma patients\u00a0were subjected to DNA methylation profiling, including CpG-site alterations, tissue and serum deconvolution, mass spectrometry, and immunoassay. Effects of clinical characteristics on temporal changes and outcomes were studied. Among 47 patients, 8 (17.0%) had non-matching classifications at recurrence. In the remaining 39 cases, 28.2% showed dominant DNA methylation subclass transitions, with 72.7% being a\u00a0mesenchymal\u00a0subclass. In general, glioblastomas with a subclass transition showed upregulated metabolic processes. Newly diagnosed glioblastomas with mesenchymal transition displayed increased stem cell-like states and decreased immune components at diagnosis and exhibited elevated immune signatures and cytokine levels in serum. In contrast, tissue of recurrent glioblastomas with mesenchymal transition showed increased immune components but decreased stem cell-like states. Survival analyses revealed comparable outcomes for patients with and without subclass transitions. This study demonstrates a temporal heterogeneity of\u00a0DNA methylation subclasses in 28.2% of glioblastomas, not impacting patient survival. Changes in cell state composition associated with subclass transition may be crucial for recurrent glioblastoma targeted therapies.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [
+        "DNA repair",
+        "immune checkpoint"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "decreased immune components",
+        "elevated immune signatures"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "DNA methylation",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "decreased immune components"
+      },
+      {
+        "source": "glioblastomas",
+        "relation": "associated_with",
+        "target": "elevated immune signatures"
+      },
+      {
+        "source": "immune checkpoint",
+        "relation": "targets",
+        "target": "glioblastomas"
+      }
+    ]
+  },
+  {
+    "pmid": "32210117",
+    "title": "Major Contribution of Caspase-9 to Honokiol-Induced Apoptotic Insults to Human Drug-Resistant Glioblastoma Cells.",
+    "year": "2020",
+    "abstract": "Temozolomide (TMZ)-induced chemoresistance to human glioblastomas is a critical challenge now. Our previous studies showed that honokiol, a major bioactive constituent of  (Houpo), can kill human glioblastoma cells and suppresses glioblastoma growth. This study was further aimed to evaluate the effects of honokiol on human drug-resistant glioblastoma cells and the possible mechanisms. The results by data mining in the cancer genome atlas (TCGA) database and immunohistochemistry displayed that expression of caspase-9 mRNA and protein in human glioblastomas was induced. Human TMZ-resistant U87-MG-R9 glioblastoma cells were selected and prepared from human drug-sensitive U87-MG cells. Compared to human drug-sensitive U87-MG cells, TMZ did not affect viability of U87-MG-R9 glioblastoma cells. Interestingly, treatment with honokiol suppressed proliferation and survival of human drug-resistant glioblastoma cells in concentration- and time-dependent manners. Compared to caspase-8 activation, honokiol chiefly increased activity of caspase-9 in U87-MG-R9 cells. Successively, levels of cleaved caspase-3 and activities of caspase-3 and caspase-6 in human TMZ-tolerant glioblastoma cells were augmented following honokiol administration. In parallel, honokiol triggered DNA fragmentation of U87-MG-R9 cells. Accordingly, treatment of human TMZ-resistant glioblastoma cells with honokiol induced cell apoptosis but did not affect cell necrosis. Fascinatingly, suppressing caspase-9 activity using its specific inhibitors repressed honokiol-induced caspase-6 activation, DNA fragmentation, and cell apoptosis. Taken together, this study has shown the major roles of caspase-9 in transducing honokiol-induced mitochondria-dependent apoptosis in human drug-resistant glioblastoma cells. Thus, honokiol may be clinically applied as a drug candidate for treatment of glioblastoma patients with chemoresistance.",
+    "entities": {
+      "drugs": [
+        "Temozolomide",
+        "TMZ",
+        "honokiol"
+      ],
+      "targets": [
+        "caspase-9",
+        "caspase-8",
+        "caspase-3",
+        "caspase-6"
+      ],
+      "pathways": [
+        "apoptosis",
+        "DNA repair"
+      ],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "chemoresistance",
+        "cell apoptosis",
+        "cell necrosis"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "caspase-9"
+      },
+      {
+        "source": "TMZ",
+        "relation": "targets",
+        "target": "caspase-9"
+      },
+      {
+        "source": "honokiol",
+        "relation": "targets",
+        "target": "caspase-9"
+      },
+      {
+        "source": "honokiol",
+        "relation": "activates",
+        "target": "caspase-9"
+      },
+      {
+        "source": "honokiol",
+        "relation": "inhibits",
+        "target": "proliferation"
+      },
+      {
+        "source": "honokiol",
+        "relation": "inhibits",
+        "target": "survival"
+      },
+      {
+        "source": "honokiol",
+        "relation": "activates",
+        "target": "caspase-6"
+      },
+      {
+        "source": "honokiol",
+        "relation": "associated_with",
+        "target": "cell apoptosis"
+      },
+      {
+        "source": "honokiol",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "caspase-9",
+        "relation": "regulates",
+        "target": "apoptosis"
+      },
+      {
+        "source": "caspase-9",
+        "relation": "associated_with",
+        "target": "cell apoptosis"
+      }
+    ]
+  },
+  {
+    "pmid": "37840492",
+    "title": "Risk of Death from Alzheimer's Disease Associated with Brain Tumor, Glioma, and Glioblastoma.",
+    "year": "2023",
+    "abstract": "BACKGROUND: No study has compared the risk of Alzheimer's disease (AD) in patients with brain tumors, gliomas, or glioblastomas with the risk in patients with other tumors.\nOBJECTIVE: To determine whether, compared with other tumors, brain tumors, gliomas, and glioblastomas increase the risk of AD.\nMETHODS: This study identified a case group of 24,441 patients from the Surveillance, Epidemiology, and End Results (SEER) database who were diagnosed with only one primary tumor at age\u200a>\u200a20 years in 1975-2019 and died from AD at age\u200a>\u200a65 years as case group. The control group comprised 122,205 subjects from the SEER database who died from causes other than AD but otherwise had the same conditions as those in the case group.\nRESULTS: There was a significantly lower prevalence of glioma (0.074% versus 0.14%, p\u200a=\u200a0.007) and glioblastoma (0.0082% versus 0.074%, p\u200a=\u200a0.001) in patients who died from AD than in those who died from other causes, while brain tumors were not significantly associated with AD death (p\u200a=\u200a0.227). When adjusted for factors including age at death, sex, race, tumor behavior, radiation therapy and tumor-directed surgery, glioblastoma was related to a significantly lower AD risk than other tumors (odds ratio: 0.19, 95% CI: 0.05-0.77). Additionally, patients who were older, female, American Indian/Alaska Native, had a benign tumor, radiation therapy and tumor-directed surgery had a significantly higher risk of dying from AD.\nCONCLUSION: Gliomas and glioblastomas were associated with a significantly lower risk of death from AD than other tumors.",
+    "entities": {
+      "drugs": [
+        "radiation therapy"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "radiation therapy",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "radiation therapy",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "radiation therapy",
+        "relation": "associated_with",
+        "target": "adverse effects"
+      }
+    ]
+  },
+  {
+    "pmid": "33628600",
+    "title": {
+      "i": "IDH",
+      "#text": "Predictive value of MGMT promoter methylation on the survival of TMZ treated -mutant glioblastoma."
+    },
+    "year": "2021",
+    "abstract": "OBJECTIVE: O6methylguanine-DNA methyltransferase () promoter methylation is a biomarker widely used to predict the sensitivity of -wildtype glioblastoma to temozolomide therapy. Given that the  status has critical effects on the survival and epigenetic features of glioblastoma, we aimed to assess the role of  promoter methylation in -mutant glioblastoma.\nMETHODS: This study included 187 -mutant glioblastomas and used 173 -wildtype glioblastomas for comparison. Kaplan-Meier curves and multivariate Cox regression were used to study the predictive effects.\nRESULTS: Compared with -wildtype glioblastomas, -mutant glioblastomas showed significantly higher ( < 0.0001)  promoter methylation. We demonstrated that  promoter methylation status, as determined by a high cutoff value (\u226530%) in pyrosequencing, could be used to significantly stratify the survival of 50 -mutant glioblastomas receiving temozolomide therapy (cohort A); this result was validated in another cohort of 25 -mutant glioblastomas (cohort B). The median progression-free survival and median overall survival in cohort A were 9.33 and 13.76 months for unmethylated cases, and 18.37 and 41.61 months for methylated cases, and in cohort B were 6.97 and 9.10 months for unmethylated cases, and 23.40 and 26.40 months for methylated cases. In addition, we confirmed that the  promoter methylation was significantly ( = 0.0001) correlated with longer OS in -mutant patients with GBM, independently of age, gender distribution, tumor type (primary or recurrent/secondary), and the extent of resection.\nCONCLUSIONS: promoter methylation has predictive value in -mutant glioblastoma, but its cutoff value should be higher than that for -wildtype glioblastoma.",
+    "entities": {
+      "drugs": [
+        "Temozolomide"
+      ],
+      "targets": [
+        "MGMT"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "progression-free survival",
+        "overall survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "MGMT"
+      },
+      {
+        "source": "MGMT",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "MGMT",
+        "relation": "associated_with",
+        "target": "progression-free survival"
+      },
+      {
+        "source": "MGMT",
+        "relation": "associated_with",
+        "target": "overall survival"
+      }
+    ]
+  },
+  {
+    "pmid": "20531430",
+    "title": "Neuro-oncology: unmasking the multiforme in glioblastoma.",
+    "year": "2010",
+    "abstract": "Classification of glioblastomas into various molecular entities is required for the successful application of targeted therapeutics and personalized cancer therapy. Analyses of gene expression, genomic mutations and DNA copy number identified four molecular subtypes among histopathologically indistinguishable glioblastomas. This classification suggests the existence of distinct paths of tumor cell origin and variation in therapeutic sensitivity.",
+    "entities": {
+      "drugs": [],
+      "targets": [],
+      "pathways": [],
+      "outcomes": []
+    },
+    "relationships": []
+  },
+  {
+    "pmid": "40542584",
+    "title": "Clinical outcome and deep learning imaging characteristics of patients treated by radio-chemotherapy for a \"molecular\" glioblastoma.",
+    "year": "2025",
+    "abstract": "BACKGROUND: Since 2021, glioblastomas have been classified into two subgroups: classic glioblastomas (histGB), defined as IDH wild-type grade 4 astrocytomas with necrosis and vascular proliferation, showing contrast enhancement (CE) on MRI; and molecular glioblastomas (molGB), characterized by specific alterations (7+/10-, EGFR amplification, TERT mutation). Although not always the case, molGB often lack CE and may mimic low-grade gliomas (LGG), hence complicating the diagnosis. Survival outcomes remain debated. This study aimed to evaluate the response of molGB to standard treatment and assess the ability of machine learning and deep learning to differentiate molGB without CE from LGG on MRI.\nMETHODS: We retrospectively studied 132 glioblastoma patients treated with radiotherapy and temozolomide, comparing the survival outcomes of histGB and molGB. Artificial intelligence (AI) models were trained using features from MRI FLAIR hypersignal segmentation to distinguish molGB without CE from LGG.\nRESULTS: No significant difference in median overall survival (OS) (20.6 vs 18.4 months, P\u2005=\u2005.2) or progression-free survival (10.1 vs 9.3 months, P\u2005=\u2005.183) was observed between molGB and histGB. However, molGB without CE demonstrated improved median OS (31.2 vs 18 months, hazard ratios 0.45). Artificial intelligence models distinguished molGB without CE from LGG, achieving a best-performing ROC AUC of 0.85.\nCONCLUSIONS: While patients with molGB and histGB have similar overall survival, patients with molGB without CE appear to have better outcomes. Artificial intelligence models effectively differentiate molGB from LGG, supporting their potential diagnostic utility.",
+    "entities": {
+      "drugs": [
+        "temozolomide"
+      ],
+      "targets": [
+        "IDH1"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "increased survival",
+        "tumor regression",
+        "adverse effects",
+        "overall survival",
+        "progression-free survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "temozolomide",
+        "relation": "targets",
+        "target": "IDH1"
+      },
+      {
+        "source": "molGB",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "molGB",
+        "relation": "associated_with",
+        "target": "overall survival"
+      },
+      {
+        "source": "molGB",
+        "relation": "associated_with",
+        "target": "progression-free survival"
+      }
+    ]
+  },
+  {
+    "pmid": "19344303",
+    "title": "Therapeutic strategies for inhibiting invasion in glioblastoma.",
+    "year": "2009",
+    "abstract": "Glioblastomas are the most common and lethal form of malignant primary brain tumors. Although some progress has been made, the impact of recent advances in multimodality therapies on clinical outcome has been disappointing, with a median survival of less than 15 months. A major challenge in patients with glioblastomas is the propensity of the tumor to invade into adjacent brain tissue. Invasive tumor cells escape surgical removal and, because of their reduced proliferation rate and increased resistance to apoptosis, they are relatively resistant to radiation therapy and chemotherapy. Recently, there has been important progress in understanding the molecular determinants of glioma invasion and migration. This review will summarize some of the therapeutic strategies for inhibiting invasion in glioblastomas.",
+    "entities": {
+      "drugs": [
+        "chemotherapy",
+        "radiation therapy"
+      ],
+      "targets": [],
+      "pathways": [
+        "apoptosis"
+      ],
+      "outcomes": [
+        "increased resistance",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemotherapy",
+        "relation": "targets",
+        "target": "apoptosis"
+      },
+      {
+        "source": "radiation therapy",
+        "relation": "targets",
+        "target": "apoptosis"
+      },
+      {
+        "source": "increased resistance",
+        "relation": "associated_with",
+        "target": "chemotherapy"
+      },
+      {
+        "source": "increased resistance",
+        "relation": "associated_with",
+        "target": "radiation therapy"
+      }
+    ]
+  },
+  {
+    "pmid": "30633222",
+    "title": "Papillary glioblastoma exhibiting a neuroradiological cyst with a mural nodule: A case report.",
+    "year": "2019",
+    "abstract": "RATIONALE: Glioblastomas are malignant, infiltrating gliomas classified as grade IV by the World Health Organization. Genetically, most glioblastomas do not exhibit the isocitrate dehydrogenase (IDH) 1/2 gene mutation and rarely harbor the 1p/19q co-deletion. Neuroradiologically, glioblastomas rarely form a cyst with a mural nodule lesion.\nPATIENT CONCERNS: In this study, a 78-year-old woman, with speech difficulty and forgetfulness, had a cystic tumor with a mural nodule in the right frontoparietal lobe. Therefore, partial tumor resection was performed.\nDIAGNOSIS: Histopathology of the tumor, a glioblastoma, exhibited pseudopapillary features with non-hyalinized capillary cores and rich mini-gemistocytic cells. Genetic analysis of the tumor revealed co-deletion of 1p36/19q13, with wild-type IDH.\nINTERVENTIONS: The patient underwent a combination of postoperative radiotherapy and temozolomide chemotherapy before leaving the hospital. After discharge, she was treated by 20 courses of temozolomide chemotherapy.\nOUTCOMES: The patient is free from tumor recurrence 23 months after the operation.\nLESSONS: We present a unique case of glioblastoma that exhibited novel neuroradiological, histopathological, and genetic features with a favorable prognosis for the patient. Therefore, a compilation of similar cases with clinicopathological and genetic analyses to characterize this unique glioblastoma is critical. Clinical evidence will help develop effective therapeutic approaches to improve prognosis in patients with glioblastoma.",
+    "entities": {
+      "drugs": [
+        "Temozolomide"
+      ],
+      "targets": [
+        "IDH"
+      ],
+      "pathways": [],
+      "outcomes": [
+        "tumor recurrence"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "Temozolomide",
+        "relation": "targets",
+        "target": "IDH"
+      },
+      {
+        "source": "Temozolomide",
+        "relation": "associated_with",
+        "target": "tumor recurrence"
+      }
+    ]
+  },
+  {
+    "pmid": "26443480",
+    "title": "Genetic Alterations in Gliosarcoma and Giant Cell Glioblastoma.",
+    "year": "2016",
+    "abstract": "The majority of glioblastomas develop rapidly with a short clinical history (primary glioblastoma IDH wild-type), whereas secondary glioblastomas progress from diffuse astrocytoma or anaplastic astrocytoma. IDH mutations are the genetic hallmark of secondary glioblastomas. Gliosarcomas and giant cell glioblastomas are rare histological glioblastoma variants, which usually develop rapidly. We determined the genetic patterns of 36 gliosarcomas and 19 giant cell glioblastomas. IDH1 and IDH2 mutations were absent in all 36 gliosarcomas and in 18 of 19 giant cell glioblastomas analyzed, indicating that they are histological variants of primary glioblastoma. Furthermore, LOH 10q (88%) and TERT promoter mutations (83%) were frequent in gliosarcomas. Copy number profiling using the 450k methylome array in 5 gliosarcomas revealed CDKN2A homozygous deletion (3 cases), trisomy chromosome 7 (2 cases), and monosomy chromosome 10 (2 cases). Giant cell glioblastomas had LOH 10q in 50% and LOH 19q in 42% of cases. ATRX loss was detected immunohistochemically in 19% of giant cell glioblastomas, but absent in 17 gliosarcomas. These and previous results suggest that gliosarcomas are a variant of, and genetically similar to, primary glioblastomas, except for a lack of EGFR amplification, while giant cell glioblastoma occupies a hybrid position between primary and secondary glioblastomas.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1",
+        "IDH2",
+        "EGFR",
+        "ATRX"
+      ],
+      "pathways": [
+        "DNA repair"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "IDH2",
+        "relation": "targets",
+        "target": "DNA repair"
+      },
+      {
+        "source": "ATRX",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      }
+    ]
+  },
+  {
+    "pmid": "39235579",
+    "title": "Nuclear Medicine Imaging Techniques in Glioblastomas.",
+    "year": "2024",
+    "abstract": "Glioblastomas are the most common primary malignant grade 4 tumors of the central nervous system (CNS). The treatment and management of such tumors requires a multidisciplinary approach and nuclear medicine techniques play an important role in this process. Glioblastoma, which recurs despite current treatments and becomes resistant to treatments, is among the tumors with the lowest survival rate, with a survival rate of approximately 8\u00a0months. Currently, the standard treatment of glioblastoma is adjuvant chemoradiotherapy after surgical resection. There have been many recent advances in the field of Nuclear Medicine in glioblastoma. PET scans are critical in determining tumor localization, pre-surgical planning, evaluation of post-treatment response and detection of recurrence. Advances in the treatment of glioblastoma and a better understanding of the biological characteristics of the disease have contributed to the development of nuclear medicine techniques. This review, in addition to other studies, is intended as a general imaging summary guide and includes some new expressions discovered in glioblastoma. This review discusses recent advances in nuclear medicine in glioblastoma.",
+    "entities": {
+      "drugs": [
+        "chemoradiotherapy"
+      ],
+      "targets": [],
+      "pathways": [],
+      "outcomes": [
+        "tumor regression",
+        "increased survival",
+        "adverse effects"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "chemoradiotherapy",
+        "relation": "targets",
+        "target": "glioblastoma"
+      },
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "tumor regression"
+      },
+      {
+        "source": "glioblastoma",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "38985083",
+    "title": "Endothelial cell ferroptosis influences IDH wild-type glioblastoma growth in recurrent glioblastoma multiforme patients.",
+    "year": "2024",
+    "abstract": "Glioblastomas are known for their poor clinical prognosis, with recurrent tumors often exhibiting greater invasiveness and faster growth rates compared to primary tumors. To understand the intratumoral changes driving this phenomenon, we employed single-cell sequencing to analyze the differences between two pairs of primary and recurrent glioblastomas. Our findings revealed an upregulation of ferroptosis in endothelial cells within recurrent tumors, identified by the significant overexpression of the NOX4 gene. Further analysis indicated that knocking down NOX4 in endothelial cells reduced the activity of the ferroptosis pathway. Utilizing conditioned media from endothelial cells with lower ferroptosis activity, we observed a decrease in the growth rate of glioblastoma cells. These results highlighted the complex role of ferroptosis within tumors and suggested that targeting ferroptosis in the treatment of glioblastomas requires careful consideration of its effects on endothelial cells, as it may otherwise produce counterproductive outcomes.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "NOX4"
+      ],
+      "pathways": [
+        "ferroptosis",
+        "ferroptosis pathway"
+      ],
+      "outcomes": [
+        "decreased growth rate",
+        "counterproductive outcomes"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "NOX4",
+        "relation": "targets",
+        "target": "ferroptosis pathway"
+      },
+      {
+        "source": "ferroptosis",
+        "relation": "associated_with",
+        "target": "decreased growth rate"
+      },
+      {
+        "source": "NOX4",
+        "relation": "regulates",
+        "target": "ferroptosis pathway"
+      }
+    ]
+  },
+  {
+    "pmid": "26427041",
+    "title": "Comprehensive portrait of recurrent glioblastoma multiforme in molecular and clinical characteristics.",
+    "year": "2015",
+    "abstract": "Glioblastoma multiforme is the most common primary malignant brain tumor in adults. In addition to poor response to treatment, a high recurrence rate contributes to the poor prognosis. The purpose of this study was to investigate the genetical and clinical characteristics of recurrent glioblastoma. We used whole transcriptome sequencing data to examine the distribution of molecular subtypes and gene signatures in 22 recurrent glioblastoma taken from the Chinese population, and further analyzed biological progression of the tumors, when compared with primary glioblastoma. The proportion of the classical subtype in recurrent ones (22%) was lower than that in primary glioblastoma (36%). The frequency of IDH1 mutations in recurrent glioblastomas was nearly twice that in primary glioblastomas. TP53 mutations were fewer in proneural recurrent glioblastomas (20%) but frequent in classical recurrent glioblastomas (80%). The most common sites of recurrent glioblastomas were the temporal lobe (41%). In patients diagnosed with recurrent glioblastoma multiforme, 64% were younger than 50 years. Gene set enrichment analysis revealed that chromatin fracture, repair, and remodeling genes were enriched in recurrent glioblastoma. Our results highlight the differences in clinical features, molecular subtypes and gene alterations between primary and recurrent glioblastoma and may be helpful for targeted therapy for recurrent glioblastoma.",
+    "entities": {
+      "drugs": [],
+      "targets": [
+        "IDH1",
+        "TP53"
+      ],
+      "pathways": [
+        "DNA repair",
+        "chromatin fracture",
+        "chromatin remodeling"
+      ],
+      "outcomes": [
+        "tumor regression",
+        "increased survival"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "IDH1",
+        "relation": "targets",
+        "target": "tumor regression"
+      },
+      {
+        "source": "TP53",
+        "relation": "targets",
+        "target": "tumor regression"
+      },
+      {
+        "source": "chromatin fracture",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "chromatin repair",
+        "relation": "associated_with",
+        "target": "increased survival"
+      },
+      {
+        "source": "chromatin remodeling",
+        "relation": "associated_with",
+        "target": "increased survival"
+      }
+    ]
+  },
+  {
+    "pmid": "27165727",
+    "title": "Analysis Suggests Drug Combos for Glioblastoma.",
+    "year": "2016",
+    "abstract": "Researchers have shown that glioblastomas can develop resistance to a drug by rewiring their signaling networks to counteract its effects. Combining drugs that target two network changes produced remissions in mice implanted with human glioblastomas.",
+    "entities": {
+      "drugs": [
+        "drug"
+      ],
+      "targets": [],
+      "pathways": [
+        "signaling networks"
+      ],
+      "outcomes": [
+        "remissions",
+        "tumor regression"
+      ]
+    },
+    "relationships": [
+      {
+        "source": "drug",
+        "relation": "targets",
+        "target": "signaling networks"
+      },
+      {
+        "source": "drug",
+        "relation": "associated_with",
+        "target": "remissions"
+      }
+    ]
+  }
+]

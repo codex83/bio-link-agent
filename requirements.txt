@@ -1,0 +1,38 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# Graph and Network Analysis
+networkx>=3.2.1
+matplotlib>=3.8.0
+
+# Vector Database and Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# PyTorch (let pip find compatible version for your system)
+torch>=2.2.0
+
+# Hugging Face Transformers (without TensorFlow)
+transformers>=4.36.0
+
+# Ollama Integration
+ollama>=0.1.6
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# API Utilities
+xmltodict>=0.13.0
+
+# Logging and Utilities
+loguru>=0.7.2
+tqdm>=4.66.0
+
+# Web Interface
+streamlit>=1.28.0
+
+# Note: We intentionally avoid TensorFlow/Keras to prevent M4 Mac conflicts
+# The M4 GPU is utilized by Ollama for LLM inference

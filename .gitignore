@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+
+# Data (can be regenerated)
+data/indexed_trials/*
+data/cache/*
+*.pkl
+*.h5
+*.hdf5
+
+# Generated reports and statistics
+data/dataset_statistics.json
+data/training_report.json
+
+# Demo outputs (generated at runtime)
+demo_outputs/
+
+# Training logs
+training_log*.txt
+nohup.out
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
