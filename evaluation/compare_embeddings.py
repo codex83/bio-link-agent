@@ -319,7 +319,7 @@ def main():
         report = generate_comparison_report(minilm_results, biobert_results)
         
         # Save report
-        report_file = output_dir / "comparison_report.txt"
+        report_file = output_dir / "embedding_model_comparison_report.txt"
         with open(report_file, 'w') as f:
             f.write(report)
         

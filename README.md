@@ -330,7 +330,7 @@ An evaluation script (`evaluation/compare_embeddings.py`) was used to compare:
 - The embedding model can be changed via `config.EMBEDDING_MODEL` in `config.py`
 - Both models are supported; BioBERT is recommended for medical applications
 - BioBERT automatically uses GPU (MPS on Mac) when available for faster inference
-- Full evaluation results available in `evaluation/outputs/comparison_report.txt`
+- Full evaluation results available in `evaluation/outputs/embedding_model_comparison_report.txt`
 
 See `evaluation/compare_embeddings.py` to run your own comparison or reproduce the evaluation.
 
