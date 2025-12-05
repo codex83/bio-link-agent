@@ -332,7 +332,7 @@ def main():
         print(f"\nResults saved to: {output_dir}/")
         print(f"  - minilm_results.json")
         print(f"  - biobert_results.json")
-        print(f"  - comparison_report.txt")
+        print(f"  - embedding_model_comparison_report.txt")
         print("\n")
         
     except Exception as e:
