@@ -336,6 +336,42 @@ See `evaluation/compare_embeddings.py` to run your own comparison or reproduce t
 
 ---
 
+## Eligibility Parser Implementation
+
+The system uses a **structured eligibility parser** with NER-based condition extraction to parse clinical trial eligibility criteria.
+
+### Implementation Details
+
+**Model Used:** `raynardj/ner-disease-ncbi-bionlp-bc5cdr-pubmed` (BC5CDR fine-tuned BioBERT)
+
+**Features:**
+- **NER-based Condition Extraction**: Uses fine-tuned BioBERT model trained on BC5CDR, NCBI-disease, BioNLP, and PubMed datasets
+- **Structured Parsing**: Extracts inclusion/exclusion criteria, age, sex, lab values, conditions, medications
+- **Patient Validation**: Validates patient eligibility against parsed criteria
+- **No Regex Patterns**: Pure NER-based extraction for accurate entity boundaries
+
+**Why This Model:**
+- Trained on multiple biomedical datasets (BC5CDR, NCBI-disease, BioNLP, PubMed)
+- Specifically fine-tuned for disease/condition recognition
+- Handles medical terminology, abbreviations, and complex eligibility criteria
+- Automatically falls back to alternative models if primary fails
+
+**Performance Comparison:**
+- **Before (Regex)**: Extracted 2 conditions from sample text, often with too much surrounding text
+- **After (NER)**: Extracts 10 conditions from same text with precise entity boundaries
+- **Improvement**: 5x more conditions extracted with better accuracy
+- See `evaluation/outputs/eligibility_parser_comparison_results.txt` for detailed before/after comparison
+
+**Example:**
+```
+Text: "Histologically confirmed non-small cell lung cancer (NSCLC), adenocarcinoma subtype"
+
+Regex: "non-small cell lung cancer (NSCLC), adenocarcinoma subtype" (too much text)
+NER:   "non-small cell lung cancer", "NSCLC", "adenocarcinoma" (precise entities)
+```
+
+---
+
 ## Performance Considerations
 
 ### Speed
@@ -357,7 +393,7 @@ See `evaluation/compare_embeddings.py` to run your own comparison or reproduce t
 1. **Entity Extraction**: LLM-based extraction may miss domain-specific abbreviations
 2. **Ontology**: Simplified hierarchy; production would use UMLS/SNOMED-CT
 3. **Relationship Extraction**: Limited to direct relationships (no multi-document synthesis)
-4. ~~**Trial Parsing**: Eligibility criteria parsing is keyword-based, not fully structured~~ ✅ **Completed**: Structured eligibility parser with NER-based condition extraction, lab value parsing, and constraint validation
+4. ~~**Trial Parsing**: Eligibility criteria parsing is keyword-based, not fully structured~~ ✅ **Completed**: Structured eligibility parser with NER-based condition extraction, lab value parsing, and constraint validation (see `evaluation/outputs/eligibility_parser_comparison_results.txt` for before/after comparison)
 5. **Evaluation**: No ground-truth validation dataset included
 
 ### Future Enhancements
