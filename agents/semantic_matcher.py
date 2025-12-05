@@ -20,6 +20,7 @@ from loguru import logger
 import config
 from mcp_servers.clinicaltrials_server import ClinicalTrialsServer
 from utils.embeddings import EmbeddingManager, OntologyChecker
+from utils.eligibility_parser import EligibilityParser, EligibilityCriteria
 
 
 class SemanticMatcher:
@@ -45,8 +46,9 @@ class SemanticMatcher:
             persist_directory=data_dir
         )
         self.ontology = OntologyChecker()
+        self.eligibility_parser = EligibilityParser()
         
-        logger.info("Semantic Matcher Agent initialized")
+        logger.info("Semantic Matcher Agent initialized with eligibility parser")
     
     def index_trials_for_condition(
         self,
@@ -117,50 +119,77 @@ class SemanticMatcher:
             logger.warning("No matches found")
             return []
         
-        # Step 2: Apply ontology-based filtering
+        # Step 2: Apply structured eligibility filtering
         filtered_matches = []
         
         for match in matches:
             metadata = match["metadata"]
             nct_id = match["nct_id"]
             
-            # Check age constraints
-            if patient_age is not None:
-                min_age_str = metadata.get("min_age", "")
-                max_age_str = metadata.get("max_age", "")
-                
-                # Parse age constraints (simple parsing)
-                if self._violates_age_constraint(patient_age, min_age_str, max_age_str):
-                    logger.debug(f"Trial {nct_id} excluded: age constraint")
-                    continue
+            # Parse eligibility criteria using the structured parser
+            # First try to get from metadata (if trials were indexed with eligibility_criteria field)
+            eligibility_text = metadata.get("eligibility_criteria", "")
             
-            # Check sex constraints
-            if patient_sex is not None:
-                trial_sex = metadata.get("sex", "ALL")
-                if trial_sex not in ["ALL", patient_sex]:
-                    logger.debug(f"Trial {nct_id} excluded: sex constraint")
-                    continue
+            # Fallback: extract from document if not in metadata
+            if not eligibility_text:
+                doc = match.get("document", "")
+                if "Eligibility Criteria:" in doc:
+                    eligibility_text = doc.split("Eligibility Criteria:")[-1]
             
-            # Check condition-based exclusions (simplified)
+            # Parse the criteria
+            parsed_criteria = self.eligibility_parser.parse(
+                eligibility_text=eligibility_text,
+                min_age_str=metadata.get("min_age", ""),
+                max_age_str=metadata.get("max_age", ""),
+                sex_str=metadata.get("sex", "")
+            )
+            
+            # Validate patient against parsed criteria
+            is_eligible, exclusion_reasons = self.eligibility_parser.validate_patient(
+                criteria=parsed_criteria,
+                patient_age=patient_age,
+                patient_sex=patient_sex,
+                patient_conditions=patient_conditions
+            )
+            
+            if not is_eligible:
+                logger.debug(f"Trial {nct_id} excluded: {', '.join(exclusion_reasons[:2])}")
+                continue
+            
+            # Additional ontology-based checks for condition matching
             if patient_conditions:
-                # This is a simplified check - in production, would use full eligibility criteria
-                excluded = False
+                # Check if patient conditions match trial conditions
+                trial_conditions = metadata.get("conditions", "").lower()
+                condition_match = False
                 for condition in patient_conditions:
-                    # Check if this is an excluded condition type
-                    # (This is very simplified - real implementation needs full criteria parsing)
-                    if "excluded" in match["document"].lower():
-                        # Would do more sophisticated parsing here
-                        pass
+                    if condition.lower() in trial_conditions or \
+                       any(self.ontology.is_subtype_of(condition.lower(), tc) for tc in trial_conditions.split(", ")):
+                        condition_match = True
+                        break
                 
-                if excluded:
-                    continue
+                # If no condition match and trial has specific conditions, exclude
+                if trial_conditions and not condition_match and len(trial_conditions) > 5:
+                    # Allow through if semantic score is high (might be related condition)
+                    if match["score"] < 0.7:
+                        logger.debug(f"Trial {nct_id} excluded: condition mismatch")
+                        continue
             
             # Add reasoning for why this trial matched
             match["reasoning"] = self._generate_match_reasoning(
                 patient_description,
                 match["document"],
-                match["score"]
+                match["score"],
+                parsed_criteria
             )
+            
+            # Store parsed criteria in match for reference
+            match["parsed_criteria"] = {
+                "min_age": parsed_criteria.min_age,
+                "max_age": parsed_criteria.max_age,
+                "sex": parsed_criteria.sex,
+                "lab_constraints_count": len(parsed_criteria.lab_constraints),
+                "exclusion_criteria_count": len(parsed_criteria.exclusion_criteria)
+            }
             
             filtered_matches.append(match)
             
@@ -201,7 +230,13 @@ class SemanticMatcher:
         
         return False
     
-    def _generate_match_reasoning(self, query: str, document: str, score: float) -> str:
+    def _generate_match_reasoning(
+        self, 
+        query: str, 
+        document: str, 
+        score: float,
+        criteria: Optional[EligibilityCriteria] = None
+    ) -> str:
         """
         Generate human-readable reasoning for why a trial matched.
         
@@ -209,6 +244,7 @@ class SemanticMatcher:
             query: Patient description
             document: Trial document
             score: Similarity score
+            criteria: Parsed eligibility criteria (optional)
         
         Returns:
             Reasoning text
@@ -233,6 +269,14 @@ class SemanticMatcher:
             reasoning += f"Matching concepts: {', '.join(matching_terms[:3])}."
         else:
             reasoning += "General semantic alignment with patient profile."
+        
+        # Add eligibility information if available
+        if criteria:
+            if criteria.min_age or criteria.max_age:
+                age_range = f"Age: {criteria.min_age or 'any'}-{criteria.max_age or 'any'}"
+                reasoning += f" {age_range}."
+            if criteria.performance_status:
+                reasoning += f" Performance status: {criteria.performance_status}."
         
         return reasoning
     

@@ -357,14 +357,14 @@ See `evaluation/compare_embeddings.py` to run your own comparison or reproduce t
 1. **Entity Extraction**: LLM-based extraction may miss domain-specific abbreviations
 2. **Ontology**: Simplified hierarchy; production would use UMLS/SNOMED-CT
 3. **Relationship Extraction**: Limited to direct relationships (no multi-document synthesis)
-4. **Trial Parsing**: Eligibility criteria parsing is keyword-based, not fully structured
+4. ~~**Trial Parsing**: Eligibility criteria parsing is keyword-based, not fully structured~~ ✅ **Completed**: Structured eligibility parser with NER-based condition extraction, lab value parsing, and constraint validation
 5. **Evaluation**: No ground-truth validation dataset included
 
 ### Future Enhancements
 1. ~~Integrate BioNLP models (BioBERT, PubMedBERT) for specialized entity recognition~~ ✅ **Completed**: BioBERT integrated as default embedding model
 2. Add UMLS Metathesaurus for comprehensive medical ontology
 3. Implement multi-document reasoning for cross-paper synthesis
-4. Develop structured eligibility criteria parser using biomedical NLP
+4. ~~Develop structured eligibility criteria parser using biomedical NLP~~ ✅ **Completed**: Eligibility parser extracts structured constraints from free-text criteria
 5. Create evaluation dataset with expert-labeled trial-patient matches
 6. Add real-time monitoring of newly published papers and trials
 7. Build web interface for clinician/researcher access

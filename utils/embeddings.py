@@ -157,7 +157,7 @@ class EmbeddingManager:
             
             documents.append(document)
             
-            # Store metadata
+            # Store metadata (including eligibility criteria for parser)
             metadata = {
                 "nct_id": nct_id,
                 "title": title,
@@ -166,6 +166,7 @@ class EmbeddingManager:
                 "min_age": trial.get("min_age", ""),
                 "max_age": trial.get("max_age", ""),
                 "sex": trial.get("sex", ""),
+                "eligibility_criteria": eligibility[:5000] if eligibility else "",  # Store first 5000 chars for parsing
             }
             metadatas.append(metadata)
             ids.append(nct_id)
